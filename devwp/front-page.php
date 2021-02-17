@@ -30,7 +30,7 @@ get_header(); ?>
             <div class="large-12 cell">
                 <h1>Welcome to 6!</h1>
 
-                <button class="btn btn-v2">Button 5</button>
+                <a href=""><button class="btn btn-v1">Register</button></a>
                 <div class="callout">
                     <h3>We're stoked you want to try Foundation! <i class="fas fa-address-book"></i></h3>
                     <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>

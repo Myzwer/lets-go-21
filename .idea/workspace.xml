@@ -19,14 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":art: Updated the scss color palette variables.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":art: Added Druk Text Wide as the header font and switched gotham to the body font. Also removed raleway font.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/variables/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/variables/_fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/webfonts/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/webfonts/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/variables/_sizes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/variables/_sizes.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +99,7 @@
       <workItem from="1606754988007" duration="1324000" />
       <workItem from="1613055663840" duration="1146000" />
       <workItem from="1613505798213" duration="2036000" />
-      <workItem from="1613572599056" duration="2547000" />
+      <workItem from="1613572599056" duration="2983000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -168,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613575119879</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary=":art: Added Druk Text Wide as the header font and switched gotham to the body font. Also removed raleway font.">
+      <created>1613575832139</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1613575832139</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +198,8 @@
     <MESSAGE value=":hammer: Made sure the events page would work the way I was hoping it would by pulling posts." />
     <MESSAGE value=":scroll: Updated the theme name across all files." />
     <MESSAGE value=":art: Updated the scss color palette variables." />
-    <option name="LAST_COMMIT_MESSAGE" value=":art: Updated the scss color palette variables." />
+    <MESSAGE value=":art: Added Druk Text Wide as the header font and switched gotham to the body font. Also removed raleway font." />
+    <option name="LAST_COMMIT_MESSAGE" value=":art: Added Druk Text Wide as the header font and switched gotham to the body font. Also removed raleway font." />
   </component>
   <component name="WindowStateProjectService">
     <state x="707" y="483" key="NewPhpFileDialog" timestamp="1613507209012">

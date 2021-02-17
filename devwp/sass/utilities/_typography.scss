@@ -44,16 +44,17 @@ h1 {
   text-transform: uppercase;
   font-size: $xlarge;
   color: $background;
+  letter-spacing: 2px;
 }
 
 h2 {
   font-size: $large;
-  text-transform: uppercase;
 }
 
 h3 {
   font-size: $medium;
   text-transform: uppercase;
+  font-weight: 600;
 }
 
 h4 {
@@ -105,9 +106,9 @@ h5 {
 p {
   font-family: $main-font;
   font-size: $normal;
-  color: black;
+  color: $primary;
   padding: 20px;
-  line-height: 1.6;
+  line-height: 1.4;
   padding-bottom: 0;
 }
 

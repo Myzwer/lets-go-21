@@ -2,12 +2,12 @@
 /**
  * Template Name: Contact Template
  *
- * The Contact Page of the Yestau Theme
+ * The Contact Page of the Let's Go Theme
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package WordPress
- * @subpackage Yestau
+ * @subpackage Let's Go
  * @since 1.0.0
  */
 

@@ -1,9 +1,9 @@
 <?php
 /**
- * The template for displaying the 404 template in the Yestau theme.
+ * The template for displaying the 404 template in the Let's Go theme.
  *
  * @package WordPress
- * @subpackage Yestau
+ * @subpackage Let's Go
  * @since 1.0.0
  */
 

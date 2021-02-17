@@ -7,7 +7,7 @@
  *
  *
  * @package WordPress
- * @subpackage Yestau
+ * @subpackage Let's Go
  * @since 1.0.0
  */
 

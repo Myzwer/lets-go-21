@@ -85,7 +85,7 @@ get_header(); ?>
         </div>
     </div>
 
-    <div class="blue-background tiny-margin-pull full-width">
+    <div class="blue-background serve-margin-pull full-width">
         <div class="grid-x grid-container">
             <div class="small-12 cell">
                 <h2 class="center dark-color-invert padding-bottom small-font-mobile">Serving Opportunties</h2>

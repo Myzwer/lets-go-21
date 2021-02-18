@@ -63,12 +63,6 @@
   padding-bottom: 60px;
 }
 
-// This is used on the homepage to set the middle glyph down on desktop only
-@media screen and (min-width: 40em) {
-  .middle-glyph-push {
-    margin-top: 50px;
-  }
-}
 
 
 
@@ -98,7 +92,22 @@
   margin-top: -8px;
 }
 
+// This is used on the homepage to set the middle glyph down on desktop only
+@media screen and (min-width: 40em) {
+  .middle-glyph-push {
+    margin-top: 100px;
+  }
+}
 
+.serve-margin-pull {
+  margin-top: -5px;
+}
+
+@media screen and (min-width: 40em) {
+  .serve-margin-pull {
+    margin-top: -10%;
+  }
+}
 
 //*********************************************
 //**************** HEADER FIX *****************

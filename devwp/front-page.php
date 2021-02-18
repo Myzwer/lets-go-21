@@ -17,7 +17,7 @@ get_header(); ?>
         <div class="grid-x grid-padding-x blue-background padding-top ">
             <div class="small-12 medium-8 large-offset-1 large-7 cell ">
                 <h1>Let's Go</h1>
-                <h3 class = "dark-color-invert">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
+                <h3 class = "dark-color-invert">Making It Count In Our Community. </h3>
             </div>
 
             <div class="small-10 small-offset-1 medium-4 medium-offset-0 large-3 padding-bottom">
@@ -78,10 +78,18 @@ get_header(); ?>
     <div class="blue-background tiny-margin-pull full-width">
         <div class="grid-x grid-container">
             <div class="small-12 cell">
-                <h2 class = "center dark-color-invert small-font-mobile">Serving Opportunties</h2>
-                <h3 class = "center dark-color-invert">Notice</h3>
-                <p class = "center dark-color-invert">Proin maximus sem ut justo lacinia, quis posuere nisl pretium. Integer interdum vulputate pharetra. Curabitur pellentesque, neque ac dapibus.</p>
+                <h2 class = "center dark-color-invert padding-bottom small-font-mobile">Serving Opportunties</h2>
+                <div class="orange-background rounded-corners margin-bottom">
+                    <h3 class = "center dark-color-invert padding-top">Notice</h3>
+                    <p class = "dark-color-invert no-spacing lr-padding padding-bottom">Proin maximus sem ut justo lacinia, quis posuere nisl pretium. Integer interdum vulputate pharetra. Curabitur pellentesque, neque ac dapibus.</p>
+                </div>
             </div>
+
+
+            <div class="small-12 cell">
+            </div>
+
+
         </div>
     </div>
 

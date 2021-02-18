@@ -16,7 +16,7 @@ get_header(); ?>
     <div class="grid-container full-width">
         <div class="grid-x grid-padding-x blue-background padding-top ">
             <div class="small-12 medium-8 large-offset-1 large-7 cell ">
-                <h1>Let's Go</h1>
+                <img class = "padding-bottom" src="http://lets-go.local/wp-content/uploads/2021/02/LETS_GO_LOGO.png" alt="">
                 <h3 class="dark-color-invert">Making It Count In Our Community. </h3>
             </div>
 
@@ -43,7 +43,7 @@ get_header(); ?>
 
             <div class="small-12 medium-4 cell">
                 <div class="glyphs center">
-                    <img src="http://lets-go.local/wp-content/uploads/2021/02/Buildings-model-isometric-vector-material-02-copy.png"
+                    <img src="http://lets-go.local/wp-content/uploads/2021/02/Homepage-What.png"
                          alt="">
                 </div>
                 <h3 class="center padding-top-small">What</h3>
@@ -54,7 +54,7 @@ get_header(); ?>
 
             <div class="small-12 medium-4 cell middle-glyph-push">
                 <div class="glyphs center">
-                    <img src="http://lets-go.local/wp-content/uploads/2021/02/Buildings-model-isometric-vector-material-02-copy.png"
+                    <img src="http://lets-go.local/wp-content/uploads/2021/02/Homepage-Where.png"
                          alt="">
                 </div>
                 <h3 class="center padding-top-small">WHere</h3>
@@ -64,7 +64,7 @@ get_header(); ?>
 
             <div class="small-12 medium-4 cell">
                 <div class="glyphs center">
-                    <img src="http://lets-go.local/wp-content/uploads/2021/02/Buildings-model-isometric-vector-material-02-copy.png"
+                    <img src="http://lets-go.local/wp-content/uploads/2021/02/Homepage-How.png"
                          alt="">
                 </div>
                 <h3 class="center padding-top-small">How</h3>

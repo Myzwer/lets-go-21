@@ -78,7 +78,7 @@ get_header(); ?>
     <div class="blue-background tiny-margin-pull full-width">
         <div class="grid-x grid-container">
             <div class="small-12 cell">
-                <h2 class = "center dark-color-invert">Serving OPS</h2>
+                <h2 class = "center dark-color-invert small-font-mobile">Serving Opportunties</h2>
                 <h3 class = "center dark-color-invert">Notice</h3>
                 <p class = "center dark-color-invert">Proin maximus sem ut justo lacinia, quis posuere nisl pretium. Integer interdum vulputate pharetra. Curabitur pellentesque, neque ac dapibus.</p>
             </div>

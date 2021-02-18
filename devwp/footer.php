@@ -19,18 +19,8 @@
 
 <!-- FOOTER START -->
 <div class="footer">
-    <div class="contain">
-        <div class="col">
-            <?php wp_nav_menu( array( 'theme_location' => 'footer-column-1' ) ); ?>
-        </div>
-        <div class="col">
-            <?php wp_nav_menu( array( 'theme_location' => 'footer-column-2' ) ); ?>
-        </div>
-        <div class="col">
-            <?php wp_nav_menu( array( 'theme_location' => 'footer-column-3' ) ); ?>
-        </div>
-        <div class="clearfix"></div>
-    </div>
+    <a href="#">Privacy Policy</a>
+    <p>© 2021 Foothills Church</p>
 </div>
 <!-- END OF FOOTER -->
 

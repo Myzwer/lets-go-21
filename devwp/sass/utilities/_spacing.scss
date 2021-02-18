@@ -34,6 +34,10 @@
   padding-top: 30px;
 }
 
+.padding-top-small {
+  padding-top: 10px
+}
+
 .padding-bottom {
   padding-bottom: 30px;
 }
@@ -48,6 +52,13 @@
 
 .padding-bottom-xl {
   padding-bottom: 60px;
+}
+
+// This is used on the homepage to set the middle glyph down on desktop only
+@media screen and (min-width: 40em) {
+  .middle-glyph-push {
+    margin-top: 50px;
+  }
 }
 
 
@@ -74,13 +85,29 @@
   margin-right: 30px;
 }
 
+.tiny-margin-pull {
+  margin-top: -8px;
+}
+
+
+
+//*********************************************
+//**************** HEADER FIX *****************
+//*********************************************
 
 .header-margin {
-  margin-top: -300px;
+  margin-top: -8px;
 }
 
 @media screen and (min-width: 40em) {
   .header-margin {
-    margin-top: 30px;
+    margin-top: -50px;
   }
 }
+
+@media screen and (min-width: 64em) {
+  .header-margin {
+    margin-top: -180px;
+  }
+}
+

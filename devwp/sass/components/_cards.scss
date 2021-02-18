@@ -1,0 +1,53 @@
+/**
+ * Cards
+ * =================================
+ * - Homepage Card
+ *
+ *
+ *
+ *
+ *
+ */
+
+.serve-card {
+  background: rgb(6,190,182); background: linear-gradient(90deg, rgba(6,190,182,1) 0%, rgba(72,177,191,1) 100%);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  position: relative;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+  img {
+
+  }
+
+  h3 {
+    padding: 10px 20px 0 20px;
+  }
+
+  p {
+    padding: 0 20px 10px 20px;
+  }
+
+  button {
+    margin: 0 auto;
+  }
+
+  .main-background {
+    margin-top: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 20px;
+  }
+}
+
+.icon-box {
+  margin-bottom: 10px;
+
+  p {
+    font-size: .7em;
+  }
+
+  .off {
+    opacity: .1;
+  }
+}

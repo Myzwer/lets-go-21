@@ -16,7 +16,8 @@ get_header(); ?>
     <div class="grid-container full-width">
         <div class="grid-x grid-padding-x blue-background padding-top ">
             <div class="small-12 medium-8 large-offset-1 large-7 cell ">
-                <img class = "padding-bottom" src="http://lets-go.local/wp-content/uploads/2021/02/LETS_GO_LOGO.png" alt="">
+                <img class="padding-bottom" src="http://lets-go.local/wp-content/uploads/2021/02/LETS_GO_LOGO.png"
+                     alt="">
                 <h3 class="dark-color-invert">Making It Count In Our Community. </h3>
             </div>
 
@@ -98,51 +99,141 @@ get_header(); ?>
             </div>
         </div>
 
-        <div class="grid-x grid-container">
-            <div class="small-12 medium-6 large-4 cell serve-card">
-                <img src="http://lets-go.local/wp-content/uploads/2021/02/KARM.png"
-                     alt="">
 
+        <!-- Start of Cards-->
+        <div class="grid-x grid-margin-x grid-margin-y card-outer">
 
+            <div class="small-12 medium-6 large-8 cell serve-card-8">
+                <div class="grid-x">
+                    <div class="small-12 medium-6 large-4 margin-bottom gradient-1 cell">
+                        <img src="http://lets-go.local/wp-content/uploads/2021/02/KARM.png"
+                             alt="">
+                    </div>
+                    <div class="small-12 medium-6 large-8 margin-bottom cell">
+                        <div class="card-contents">
+                            <h3>Karm Stores</h3>
+                            <p>Proin maximus sem ut justo lacinia, quis posuere nisl pretium. Integer interdum vulputate
+                                pharetra. Curabitur pellentesque, neque ac dapibus.</p>
 
-                <div class="main-background">
-                    <h3>Karm Stores</h3>
-                    <p>Proin maximus sem ut justo lacinia, quis posuere nisl pretium. Integer interdum vulputate
-                        pharetra. Curabitur pellentesque, neque ac dapibus.</p>
-                    <div class="grid-x icon-box">
-                        <div class="small-4 cell off">
-                            <div class="center">
-                                <img class="center"
-                                     src="https://img.icons8.com/pastel-glyph/40/000000/check-file--v3.png"/>
+                            <div class="grid-x icon-box">
+                                <div class="small-4 cell off">
+                                    <div class="center">
+                                        <img class="center"
+                                             src="https://img.icons8.com/pastel-glyph/40/000000/check-file--v3.png"/>
+                                    </div>
+                                    <p class="center no-spacing">Background Check</p>
+                                </div>
+                                <div class="small-4 cell">
+                                    <div class="center">
+                                        <img class="center"
+                                             src="https://img.icons8.com/ios/40/000000/children--v1.png"/>
+                                    </div>
+                                    <p class="center no-spacing">Family Friendly</p>
+                                </div>
+                                <div class="small-4 cell off">
+                                    <div class="center">
+                                        <img class="center"
+                                             src="https://img.icons8.com/ios/40/000000/protection-mask.png"/>
+                                    </div>
+                                    <p class="center no-spacing">Mask Required</p>
+                                </div>
                             </div>
-                            <p class="center no-spacing">Background Check</p>
-                        </div>
-                        <div class="small-4 cell">
+
                             <div class="center">
-                                <img class="center"
-                                     src="https://img.icons8.com/ios/40/000000/children--v1.png"/>
+                                <a href="#"></a>
+                                <button class="btn btn-v1">Register</button>
                             </div>
-                            <p class="center no-spacing">Family Friendly</p>
-                        </div>
-                        <div class="small-4 cell off">
-                            <div class="center">
-                                <img class="center"
-                                     src="https://img.icons8.com/ios/40/000000/protection-mask.png"/>
-                            </div>
-                            <p class="center no-spacing">Mask Required</p>
                         </div>
                     </div>
 
-                    <div class="center margin-bottom">
-                        <a href="#"></a>
-                        <button class="btn btn-v1">Register</button>
+                    <div class="small-12 medium-6 large-4 gradient-1 cell">
+                        <img src="http://lets-go.local/wp-content/uploads/2021/02/KARM.png"
+                             alt="">
                     </div>
+                    <div class="small-12 medium-6 large-8 cell">
+                        <div class="card-contents">
+                            <h3>Karm Stores 2</h3>
+                            <p>Proin maximus sem ut justo lacinia, quis posuere nisl pretium. Integer interdum vulputate
+                                pharetra. Curabitur pellentesque, neque ac dapibus.</p>
+
+                            <div class="grid-x icon-box">
+                                <div class="small-4 cell off">
+                                    <div class="center">
+                                        <img class="center"
+                                             src="https://img.icons8.com/pastel-glyph/40/000000/check-file--v3.png"/>
+                                    </div>
+                                    <p class="center no-spacing">Background Check</p>
+                                </div>
+                                <div class="small-4 cell">
+                                    <div class="center">
+                                        <img class="center"
+                                             src="https://img.icons8.com/ios/40/000000/children--v1.png"/>
+                                    </div>
+                                    <p class="center no-spacing">Family Friendly</p>
+                                </div>
+                                <div class="small-4 cell off">
+                                    <div class="center">
+                                        <img class="center"
+                                             src="https://img.icons8.com/ios/40/000000/protection-mask.png"/>
+                                    </div>
+                                    <p class="center no-spacing">Mask Required</p>
+                                </div>
+                            </div>
+
+                            <div class="center">
+                                <a href="#"></a>
+                                <button class="btn btn-v1">Register</button>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-
-
             </div>
-        </div>
-    </div>
+
+
+
+
+                    <div class="small-12 medium-6 large-4 cell serve-card">
+                        <img src="http://lets-go.local/wp-content/uploads/2021/02/KARM.png"
+                             alt="">
+                        <div class="main-background">
+                            <h3>Karm Stores 3</h3>
+                            <p>Proin maximus sem ut justo lacinia, quis posuere nisl pretium. Integer interdum vulputate
+                                pharetra. Curabitur pellentesque, neque ac dapibus.</p>
+                            <div class="grid-x icon-box">
+                                <div class="small-4 cell off">
+                                    <div class="center">
+                                        <img class="center"
+                                             src="https://img.icons8.com/pastel-glyph/40/000000/check-file--v3.png"/>
+                                    </div>
+                                    <p class="center no-spacing">Background Check</p>
+                                </div>
+                                <div class="small-4 cell">
+                                    <div class="center">
+                                        <img class="center"
+                                             src="https://img.icons8.com/ios/40/000000/children--v1.png"/>
+                                    </div>
+                                    <p class="center no-spacing">Family Friendly</p>
+                                </div>
+                                <div class="small-4 cell off">
+                                    <div class="center">
+                                        <img class="center"
+                                             src="https://img.icons8.com/ios/40/000000/protection-mask.png"/>
+                                    </div>
+                                    <p class="center no-spacing">Mask Required</p>
+                                </div>
+                            </div>
+
+                            <div class="center margin-bottom">
+                                <a href="#"></a>
+                                <button class="btn btn-v1">Register</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
 
 
 <?php get_footer();

@@ -9,6 +9,37 @@
  *
  */
 
+.card-outer {
+  margin: 0 3%;
+}
+
+.gradient-1 {
+  background: rgb(6,190,182); background: linear-gradient(90deg, rgba(6,190,182,1) 0%, rgba(72,177,191,1) 100%);
+
+}
+
+.serve-card-8 {
+  .card-contents {
+    background-color: $background;
+    height: 100%;
+  }
+
+  .card-contents {
+    padding: 20px;
+
+    p {
+      padding: 0;
+      margin: 0 0 10px 0;
+    }
+
+    button {
+      margin: 0 auto;
+    }
+  }
+}
+
+
+
 .serve-card {
   background: rgb(6,190,182); background: linear-gradient(90deg, rgba(6,190,182,1) 0%, rgba(72,177,191,1) 100%);
   border-radius: 10px;
@@ -39,6 +70,7 @@
     padding-bottom: 20px;
   }
 }
+
 
 .icon-box {
   margin-bottom: 10px;

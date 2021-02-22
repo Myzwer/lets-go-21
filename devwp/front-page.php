@@ -105,32 +105,79 @@ get_header(); ?>
             <div class="small-12 cell"><!-- Card Container Start, basically leave this alone -->
                 <div class="grid-x grid-margin-x"><!-- Cards Outer -->
 
-                    <div class="small-12 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
-                        <div class="grid-x lock-tall"><!-- Card 2 Inner / Height Locks -->
+
+                    <!-- ************ ROW 1 ************* -->
+                    <div class="small-12 cell card-margin-bottom "><!-- FEATURED Outer -->
+                        <div class="grid-x lock-tall"><!-- Card 1 Inner / Height Locks -->
 
                             <!-- Left / Top -->
-                            <div class="small-12 medium-4 cell gradient-1 relative">
+                            <div class="small-12 medium-4 cell gradient-1 gradient-corners relative">
                                 <div class="card-center">
                                     <img src="http://lets-go.local/wp-content/uploads/2021/02/KARM.png" alt="">
                                 </div>
                             </div>
 
                             <!-- Right / Bottom -->
-                            <div class="small-12 medium-8 cell card-contents">
-                                <!-- Card Contents -->
+                            <div class="small-12 medium-8 cell card-contents content-corners relative">
+                                <div class="card-content-center">
+                                    <h2 class = "no-spacing lr-padding">Karm Stores</h2>
+                                    <p class = "no-spacing lr-padding margin-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias asperiores
+                                        aspernatur beatae ducimus eaque eius est et ex facere fugit labore, natus
+                                        obcaecati, quis quisquam recusandae reprehenderit repudiandae sit, tempore.</p>
+                                    <div class="grid-x icon-box">
+                                        <div class="small-4 cell off">
+                                            <div class="center">
+                                                <img class="center"
+                                                     src="https://img.icons8.com/pastel-glyph/40/000000/check-file--v3.png"/>
+                                            </div>
+                                            <p class="center no-spacing">Background Check</p>
+                                        </div>
+                                        <div class="small-4 cell">
+                                            <div class="center">
+                                                <img class="center"
+                                                     src="https://img.icons8.com/ios/40/000000/children--v1.png"/>
+                                            </div>
+                                            <p class="center no-spacing">Family Friendly</p>
+                                        </div>
+                                        <div class="small-4 cell off">
+                                            <div class="center">
+                                                <img class="center"
+                                                     src="https://img.icons8.com/ios/40/000000/protection-mask.png"/>
+                                            </div>
+                                            <p class="center no-spacing">Mask Required</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="center margin-bottom">
+                                        <a href="#"></a>
+                                        <button class="btn btn-v1 register-button">Register</button>
+                                    </div>
+
+
+                                </div>
                             </div>
                         </div><!-- Card 3 Inner End -->
                     </div><!-- Card 3 Outer End -->
 
-                    <div class="small-12 medium-8 cell"><!-- This sets the length of the first stack of cards -->
 
+
+
+
+
+
+
+
+                    <!-- ************ ROW 2 ************* -->
+                    <div class="small-12 medium-8 cell"><!-- This sets the length of the first stack of cards -->
                         <div class="grid-x">
-                            <div class="small-12 cell"><!-- Card 1 LONG Outer -->
-                                <div class="grid-x lock-tall-half"><!-- Card 1 Inner / Height Locks -->
+                            <div class="small-12 cell"><!-- Card 2 LONG Outer -->
+                                <div class="grid-x lock-tall-half"><!-- Card 2 Inner / Height Locks -->
 
                                     <!-- Left / Top -->
-                                    <div class="small-12 medium-5 large-4 cell card-margin-bottom-desktop gradient-1">
-                                        <!-- Gradient / Image -->
+                                    <div class="small-12 medium-5 large-4 cell card-margin-bottom-desktop gradient-1 relative">
+                                        <div class="card-center">
+                                            <img src="http://lets-go.local/wp-content/uploads/2021/02/KARM.png" alt="">
+                                        </div>
                                     </div>
 
                                     <!-- Right / Bottom -->
@@ -139,6 +186,7 @@ get_header(); ?>
                                     </div>
                                 </div><!-- Card 1 Inner End -->
                             </div><!-- Card 1 Outer End -->
+
 
                             <div class="small-12 cell"><!-- Card 2 LONG Outer -->
                                 <div class="grid-x lock-tall-half"><!-- Card 2 Inner / Height Locks -->
@@ -175,6 +223,15 @@ get_header(); ?>
                     </div><!-- Card 3 Outer End -->
 
 
+
+
+
+
+
+
+
+
+                    <!-- ************ ROW 3 ************* -->
                     <div class="small-12 medium-6 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
                         <div class="grid-x lock-tall-half"><!-- Card 2 Inner / Height Locks -->
 
@@ -205,6 +262,16 @@ get_header(); ?>
                         </div><!-- Card 3 Inner End -->
                     </div><!-- Card 3 Outer End -->
 
+
+
+
+
+
+
+
+
+
+                    <!-- ************ ROW 4 ************* -->
                     <div class="small-12 medium-4 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
                         <div class="grid-x lock-tall"><!-- Card 2 Inner / Height Locks -->
 
@@ -250,6 +317,17 @@ get_header(); ?>
                         </div><!-- Card 3 Inner End -->
                     </div><!-- Card 3 Outer End -->
 
+
+
+
+
+
+
+
+
+
+
+                    <!-- ************ ROW 5 ************* -->
                     <div class="small-12 medium-5 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
                         <div class="grid-x lock-tall"><!-- Card 2 Inner / Height Locks -->
 
@@ -299,7 +377,6 @@ get_header(); ?>
 
                         </div><!-- Card Stack end -->
                     </div>
-
 
 
                 </div><!-- Card 1 Outer End -->

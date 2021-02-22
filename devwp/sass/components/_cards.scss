@@ -13,6 +13,7 @@
 // Makes sure the margin pushes the cards in so they are full width, but with padding
 .card-outer {
   margin: 0 3%;
+  max-width: 2000px;
 }
 
 
@@ -21,26 +22,72 @@
   background: rgb(6,190,182); background: linear-gradient(90deg, rgba(6,190,182,1) 0%, rgba(72,177,191,1) 100%);
 }
 
+//Rounded Corner Situation
+.gradient-corners {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.content-corners {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+@media screen and (min-width: 40em) {
+  .gradient-corners {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .content-corners {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+  }
+}
+
+
 
 // Card Content
 .card-contents {
   background-color: $background;
 }
 
-.card-center {
-  position: absolute;
-  top: 30%;
-  left: 20%;
-  transform: translate(-13%, -20%);
+
+
+// Desktop only, as mobile will fill in where needed
+@media screen and (min-width: 40em) {
+  .card-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+  }
+
+  .card-content-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+  }
 }
 
-// Height Locks for Cards
-.lock-tall {
-  height: 600px;
-}
 
-.lock-tall-half {
-  height: 315px;
+// Height Locks for Cards, desktop only. Mobile will size as needed.
+@media screen and (min-width: 40em) {
+  .lock-tall {
+    height: 600px;
+  }
+
+  .lock-tall-half {
+    height: 315px;
+  }
 }
 
 
@@ -53,4 +100,23 @@
   .card-margin-bottom-desktop {
     margin-bottom: 30px;
   }
+}
+
+
+
+
+// Icons
+.icon-box {
+
+}
+
+.off {
+  opacity: .1;
+}
+
+
+//buttons
+.card-contents .register-button {
+  text-align: center;
+  margin: 30px auto 30px auto;
 }

@@ -13,6 +13,19 @@
   width: 200px;
 }
 
+.icons {
+  width: 50px;
+}
+
+//This centers the icons where desired
+.icon-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+
 .waves {
   width: 100%;
 }

@@ -26,9 +26,20 @@ get_header(); ?>
                 <div class="small-12 cell">
                     <h1 class = "light-color-invert xl-title">Karm stores</h1>
                 </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="full-width main-background">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x padding-outer">
                 <div class="small-12 cell">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sodales finibus varius. Pellentesque velit velit, blandit eget elementum viverra, vehicula in sapien. Nullam sollicitudin hendrerit urna, at imperdiet ante pellentesque non. Curabitur rutrum non velit sit amet elementum. Donec sed eleifend felis, quis tristique nisi. Morbi sit amet metus erat. Morbi vitae tortor commodo, elementum dolor in, semper turpis.
+                    <?php if (have_posts()) : while (have_posts()) : the_post();
+                        the_content();
+                    endwhile;
+                    else: ?>
+                        <p>Sorry, no posts matched your criteria.</p>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
@@ -45,8 +56,12 @@ get_header(); ?>
     <div class="blue-background serve-margin-pull full-width">
         <div class="grid-x grid-container">
             <div class="small-12 cell">
-                <h2 class="dark-color-invert padding-bottom small-font-mobile">Details</h2>
+                <h2 class="dark-color-invert small-font-mobile">Details</h2>
             </div>
+            <div class="small-12 cell padding-bottom">
+                <p class = "dark-color-invert no-spacing">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet, dolorum error labore minus numquam quae quia vero. Exercitationem illo ipsum molestias neque odit pariatur porro saepe unde veniam, voluptas!</p>
+            </div>
+
             <div class="small-12 cell margin-bottom">
                 <div class="grid-x grid-container">
                     <div class="small-2 cell relative">
@@ -55,7 +70,7 @@ get_header(); ?>
                         </div>
                     </div>
                     <div class="small-10 cell">
-                        <h4 class = "dark-color-invert">1551 W. Lamar Alexander Pkwy. Maryville TN, 37801</h4>
+                        <h4 class = "dark-color-invert"><?php the_field('address'); ?></h4>
                     </div>
                 </div>
             </div>
@@ -110,20 +125,7 @@ get_header(); ?>
     </div>
 
 
-    <div class="full-width main-background">
-        <div class="grid-container">
-            <div class="grid-x grid-padding-x padding-outer">
-                <div class="small-12 cell">
-                    <?php if (have_posts()) : while (have_posts()) : the_post();
-                        the_content();
-                    endwhile;
-                    else: ?>
-                        <p>Sorry, no posts matched your criteria.</p>
-                    <?php endif; ?>
-                </div>
-            </div>
-        </div>
-    </div>
+
 
 
 <?php get_footer();

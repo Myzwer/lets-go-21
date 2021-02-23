@@ -10,6 +10,8 @@
  */
 
 //This is dedicated to overriding the code that the event espresso generates.
+// The .small-12 is generated from my PHP, not their code, but it is used to achieve higher specificity without using important
+
 
 //change button color for select date
 .checkbox-dropdown-selector-wrap-dv button {
@@ -92,6 +94,10 @@
   }
 }
 
+.small-12 .spco-whats-next-buttons {
+  padding-top: 0;
+}
+
 
 // List Items on Bottom of page
 .event-datetimes {
@@ -107,3 +113,85 @@
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
+
+
+// Second Page
+
+.spco-steps-big-hdr {
+  display: none;
+}
+
+.small-12 #spco-steps-display-dv {
+  border-top: 1px solid rgba(0,0,0,.2);
+  border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+.small-12 .spco-step-display-dv {
+  width: 100%;
+}
+
+.small-12 .spco-steps-pg {
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+
+.spco-ticket-details thead, .spco-ticket-details tbody {
+  background-color: $blue;
+  color: $white;
+}
+
+.spco-ticket-details thead {
+  font-size: 1.3em;
+}
+
+
+.spco-ticket-details>thead>tr>:nth-child(3), .spco-ticket-details>thead>tr>:nth-child(4),
+.spco-ticket-details>tbody>tr>:nth-child(3), .spco-ticket-details>tbody>tr>:nth-child(4) {
+ display: none;
+}
+
+.spco-ticket-details {
+  margin-bottom: 50px;
+}
+
+.small-12 .spco-attendee-lgnd {
+  color: rgba(0,0,0,.5);
+}
+
+.small-12 .ee-reg-form-attendee-dv {
+  border: 2px solid rgba(0,0,0,.2);
+}
+
+// Form Edits
+
+@media screen and (min-width: 40em) {
+  .small-12 .ee-reg-qstn {
+    width: 50%;
+  }
+}
+
+.small-12 #spco-copy-attendee-dv {
+  display: none;
+}
+
+.spco-whats-next-buttons input {
+  font-family: $main-font;
+  box-sizing: border-box;
+  appearance: none;
+  background-color: $orange;
+  border: 2px solid $orange;
+  color: $white;
+  border-radius: 0.6em;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    background-color: $blue;
+    border: 2px solid $blue;
+    outline: 0;
+  }
+}
+

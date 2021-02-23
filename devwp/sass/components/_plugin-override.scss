@@ -1,0 +1,109 @@
+/**
+ * Plugin Override
+ * =================================
+ * - Event Espresso
+ *
+ *
+ *
+ *
+ *
+ */
+
+//This is dedicated to overriding the code that the event espresso generates.
+
+//change button color for select date
+.checkbox-dropdown-selector-wrap-dv button {
+  background-color: $blue;
+  border-radius: 10px;
+}
+
+.checkbox-dropdown-selector-wrap-dv button:hover {
+  background-color: $orange;
+}
+
+.datetime_selector-dv {
+  display: none;
+}
+
+
+//change box color to be blue
+.tkt-slctr-tbl thead, .tkt-slctr-tbl tbody {
+  background-color: $blue;
+  color: $white;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  border: 0;
+}
+
+
+//hide extra details section
+.display-tckt-slctr-tkt-details {
+  display: none;
+}
+
+.ee-ticket-selector-ticket-price-th {
+  display: none;
+}
+
+.tckt-slctr-tbl-td-price {
+  display: none;
+}
+
+.ticket-selector-tbl-qty-slct {
+  cursor: pointer;
+}
+
+.sold-out {
+  color: $white !important;
+  cursor: not-allowed;
+}
+
+.tkt-slctr-tbl .ticket-sales-sold-out {
+  color: white;
+  opacity: .3;
+  cursor: not-allowed;
+}
+
+
+//button edits
+.ticket-selector-submit-btn-wrap input{
+
+  font-family: $main-font;
+  box-sizing: border-box;
+  appearance: none;
+  background-color: $orange;
+  border: 2px solid $orange;
+  color: $white;
+  border-radius: 0.6em;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1.2rem;
+  line-height: 1;
+  margin: 20px;
+  padding: .6em 2em;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 2px;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    outline: 0;
+  }
+}
+
+
+// List Items on Bottom of page
+.event-datetimes {
+  display: none;
+  background-color: $blue;
+  color: $white;
+  border-radius: 10px;
+}
+
+
+.ee-event-datetimes-li {
+  list-style-type: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

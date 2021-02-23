@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":rocket: Completed the design of the events page, will need to convert it to ACF.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":art: Added relevant sass to style the second half of the events page after user selects their time.">
+      <change afterPath="$PROJECT_DIR$/devwp/confirmation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_plugin-override.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_plugin-override.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +98,7 @@
       <workItem from="1606754988007" duration="1324000" />
       <workItem from="1613055663840" duration="1146000" />
       <workItem from="1613505798213" duration="2036000" />
-      <workItem from="1613572599056" duration="88098000" />
+      <workItem from="1613572599056" duration="88657000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -292,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614060898194</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary=":art: Added relevant sass to style the second half of the events page after user selects their time.">
+      <created>1614098254032</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1614098254032</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +315,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Contact.php was living in the wrong spot, so I moved it to its correct folder." />
     <MESSAGE value="Completely reworked my scss file structure. Moved most of my files into a few folders and broke them apart into smaller files. This change was inpsired from changes I was making to nearly every project I worked on. The current structure had too many classes that could fit into one or more files, so this helps differentiate which classes should be in which files." />
     <MESSAGE value="Updated the default font to be gotham instead of harbor, as this is used on more projects than harbour is. Also made a slight change to the class names of text-color flips to be more consistant with other projects." />
     <MESSAGE value=":hammer: Updated the header to not have any code since it isn't necessary for a 1 page website." />
@@ -336,7 +339,8 @@
     <MESSAGE value=":construction: Added ACF to the whole page except for the lower cards, though I did verify they would work for the first one. Aside from adding those ACF cards (and any tweaks the come with that), this page is finished." />
     <MESSAGE value=":Rocket: Completed the base design for the header of the events page." />
     <MESSAGE value=":rocket: Completed the design of the events page, will need to convert it to ACF." />
-    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Completed the design of the events page, will need to convert it to ACF." />
+    <MESSAGE value=":art: Added relevant sass to style the second half of the events page after user selects their time." />
+    <option name="LAST_COMMIT_MESSAGE" value=":art: Added relevant sass to style the second half of the events page after user selects their time." />
   </component>
   <component name="WindowStateProjectService">
     <state x="707" y="483" key="NewPhpFileDialog" timestamp="1613507209012">

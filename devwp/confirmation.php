@@ -11,6 +11,7 @@
  * @since 1.0.0
  */
 
+$eventId = get_event_id();
 get_header(); ?>
 
 
@@ -40,12 +41,7 @@ get_header(); ?>
         <div class="grid-container">
             <div class="grid-x grid-padding-x padding-outer">
                 <div class="small-12 cell">
-                    <?php if (have_posts()) : while (have_posts()) : the_post();
-                        the_content();
-                    endwhile;
-                    else: ?>
-                        <p>Sorry, no posts matched your criteria.</p>
-                    <?php endif; ?>
+                    <?php the_content(); ?>
                 </div>
             </div>
         </div>
@@ -68,7 +64,7 @@ get_header(); ?>
             <div class="small-12 cell">
                 <div class="margin-bottom">
                     <h4 class="dark-color-invert no-spacing">I need to make a change to my serving time.</h4>
-                    <p class="no-spacing dark-color-invert"><?php the_field('answer_1'); ?></p>
+                    <p class="no-spacing dark-color-invert"><?php the_field('answer_1', $eventId); ?></p>
                 </div>
             </div>
 
@@ -76,28 +72,28 @@ get_header(); ?>
                 <div class="margin-bottom">
                     <h4 class="dark-color-invert no-spacing">I have a friend who wants to come last minute, is that
                         ok?</h4>
-                    <p class="no-spacing dark-color-invert"><?php the_field('answer_2'); ?></p>
+                    <p class="no-spacing dark-color-invert"><?php the_field('answer_2', $eventId); ?></p>
                 </div>
             </div>
 
             <div class="small-12 cell">
                 <div class="margin-bottom">
                     <h4 class="dark-color-invert no-spacing">What should I wear?</h4>
-                    <p class="no-spacing dark-color-invert"><?php the_field('answer_3'); ?></p>
+                    <p class="no-spacing dark-color-invert"><?php the_field('answer_3', $eventId); ?></p>
                 </div>
             </div>
 
             <div class="small-12 cell">
                 <div class="margin-bottom">
                     <h4 class="dark-color-invert no-spacing">Where do I park?</h4>
-                    <p class="no-spacing dark-color-invert"><?php the_field('answer_4'); ?></p>
+                    <p class="no-spacing dark-color-invert"><?php the_field('answer_4', $eventId); ?></p>
                 </div>
             </div>
 
             <div class="small-12 cell">
                 <div class="margin-bottom">
                     <h4 class="dark-color-invert no-spacing">I have more questions.</h4>
-                    <p class="no-spacing dark-color-invert"><?php the_field('answer_5'); ?></p>
+                    <p class="no-spacing dark-color-invert"><?php the_field('answer_5', $eventId); ?></p>
                 </div>
             </div>
 

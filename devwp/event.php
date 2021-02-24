@@ -24,22 +24,8 @@ get_header(); ?>
                 </div>
 
                 <div class="small-12 cell">
-                    <h1 class = "light-color-invert xl-title">Karm stores</h1>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="full-width main-background">
-        <div class="grid-container">
-            <div class="grid-x grid-padding-x padding-outer">
-                <div class="small-12 cell">
-                    <?php if (have_posts()) : while (have_posts()) : the_post();
-                        the_content();
-                    endwhile;
-                    else: ?>
-                        <p>Sorry, no posts matched your criteria.</p>
-                    <?php endif; ?>
+                    <h1 class = "light-color-invert xl-title"><?php the_field('organization_name'); ?></h1>
+                    <p class = "no-spacing">Scroll down to see available times.</p>
                 </div>
             </div>
         </div>
@@ -59,7 +45,7 @@ get_header(); ?>
                 <h2 class="dark-color-invert small-font-mobile">Details</h2>
             </div>
             <div class="small-12 cell padding-bottom">
-                <p class = "dark-color-invert no-spacing">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet, dolorum error labore minus numquam quae quia vero. Exercitationem illo ipsum molestias neque odit pariatur porro saepe unde veniam, voluptas!</p>
+                <p class = "dark-color-invert no-spacing"><?php the_field('event_description'); ?></p>
             </div>
 
             <div class="small-12 cell margin-bottom">
@@ -83,7 +69,7 @@ get_header(); ?>
                         </div>
                     </div>
                     <div class="small-10 cell">
-                        <h4 class = "dark-color-invert">Children 10+ allowed</h4>
+                        <h4 class = "dark-color-invert"><?php the_field('child_information'); ?></h4>
                     </div>
                 </div>
             </div>
@@ -96,7 +82,7 @@ get_header(); ?>
                         </div>
                     </div>
                     <div class="small-10 cell">
-                        <h4 class = "dark-color-invert">Mask Is Required</h4>
+                        <h4 class = "dark-color-invert"><?php the_field('mask_information'); ?></h4>
                     </div>
                 </div>
             </div>
@@ -109,7 +95,7 @@ get_header(); ?>
                         </div>
                     </div>
                     <div class="small-10 cell">
-                        <h4 class = "dark-color-invert">Event is held Rain or Shine</h4>
+                        <h4 class = "dark-color-invert"><?php the_field('weather_information'); ?></h4>
                     </div>
                 </div>
             </div>
@@ -120,6 +106,22 @@ get_header(); ?>
         <div class="grid-x ">
             <div class="small-12 low-z-index cell">
                 <img class="waves" src="http://lets-go.local/wp-content/uploads/2021/02/Header-Small.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="full-width main-background">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x padding-outer">
+                <div class="small-12 cell">
+                    <?php if (have_posts()) : while (have_posts()) : the_post();
+                        the_content();
+                    endwhile;
+                    else: ?>
+                        <p>Sorry, no posts matched your criteria.</p>
+                    <?php endif; ?>
+                </div>
             </div>
         </div>
     </div>

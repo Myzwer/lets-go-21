@@ -68,40 +68,36 @@ get_header(); ?>
             <div class="small-12 cell">
                 <div class="margin-bottom">
                     <h4 class="dark-color-invert no-spacing">I need to make a change to my serving time.</h4>
-                    <p class="no-spacing dark-color-invert">Please contact Donna by emailing
-                        something@foothillschurch.com</p>
+                    <p class="no-spacing dark-color-invert"><?php the_field('answer_1'); ?></p>
+                </div>
+            </div>
+
+            <div class="small-12 cell">
+                <div class="margin-bottom">
+                    <h4 class="dark-color-invert no-spacing">I have a friend who wants to come last minute, is that
+                        ok?</h4>
+                    <p class="no-spacing dark-color-invert"><?php the_field('answer_2'); ?></p>
                 </div>
             </div>
 
             <div class="small-12 cell">
                 <div class="margin-bottom">
                     <h4 class="dark-color-invert no-spacing">What should I wear?</h4>
-                    <p class="no-spacing dark-color-invert">Comfortable clothes with closed toed shoes.</p>
-                </div>
-            </div>
-
-
-            <div class="small-12 cell">
-                <div class="margin-bottom">
-                    <h4 class="dark-color-invert no-spacing">I have a friend who wants to come last minute, is that
-                        ok?</h4>
-                    <p class="no-spacing dark-color-invert">Please do not bring any extra people to serve who have not
-                        registered for the event. Although it sounds helpful, our serve organizations have specified the
-                        number of people allowed and we want to honor this.</p>
+                    <p class="no-spacing dark-color-invert"><?php the_field('answer_3'); ?></p>
                 </div>
             </div>
 
             <div class="small-12 cell">
                 <div class="margin-bottom">
                     <h4 class="dark-color-invert no-spacing">Where do I park?</h4>
-                    <p class="no-spacing dark-color-invert">The organization has not specified anything specific, park on site where available.</p>
+                    <p class="no-spacing dark-color-invert"><?php the_field('answer_4'); ?></p>
                 </div>
             </div>
 
             <div class="small-12 cell">
                 <div class="margin-bottom">
                     <h4 class="dark-color-invert no-spacing">I have more questions.</h4>
-                    <p class="no-spacing dark-color-invert">Please contact someone that isn't josh.</p>
+                    <p class="no-spacing dark-color-invert"><?php the_field('answer_5'); ?></p>
                 </div>
             </div>
 

@@ -11,6 +11,7 @@
  * @since 1.0.0
  */
 
+$eventId = get_event_id();
 get_header(); ?>
 
 <?php
@@ -31,7 +32,7 @@ echo $pageID;
                 </div>
 
                 <div class="small-12 cell">
-                    <h1 class = "light-color-invert xl-title"><?php the_field('organization_name' , $pageID); ?></h1>
+                    <h1 class = "light-color-invert xl-title"><?php the_field('organization_name', $eventId); ?></h1>
                     <p class = "no-spacing">Scroll down to see available times.</p>
                 </div>
             </div>
@@ -49,10 +50,10 @@ echo $pageID;
     <div class="blue-background serve-margin-pull full-width">
         <div class="grid-x grid-container">
             <div class="small-12 cell">
-                <h2 class="dark-color-invert small-font-mobile">Details</h2>
+                <h2 class="dark-color-invert small-font-mobile">Details (Post <?php echo $eventId; ?>)</h2>
             </div>
             <div class="small-12 cell padding-bottom">
-                <p class = "dark-color-invert no-spacing"><?php the_field('event_description'); ?></p>
+                <p class = "dark-color-invert no-spacing"><?php the_field('event_description', $eventId); ?></p>
             </div>
 
             <div class="small-12 cell margin-bottom">
@@ -63,7 +64,7 @@ echo $pageID;
                         </div>
                     </div>
                     <div class="small-10 cell">
-                        <h4 class = "dark-color-invert"><?php the_field('address'); ?></h4>
+                        <h4 class = "dark-color-invert"><?php the_field('address', $eventId); ?></h4>
                     </div>
                 </div>
             </div>
@@ -76,7 +77,7 @@ echo $pageID;
                         </div>
                     </div>
                     <div class="small-10 cell">
-                        <h4 class = "dark-color-invert"><?php the_field('child_information'); ?></h4>
+                        <h4 class = "dark-color-invert"><?php the_field('child_information', $eventId); ?></h4>
                     </div>
                 </div>
             </div>
@@ -89,7 +90,7 @@ echo $pageID;
                         </div>
                     </div>
                     <div class="small-10 cell">
-                        <h4 class = "dark-color-invert"><?php the_field('mask_information'); ?></h4>
+                        <h4 class = "dark-color-invert"><?php the_field('mask_information', $eventId); ?></h4>
                     </div>
                 </div>
             </div>
@@ -102,7 +103,8 @@ echo $pageID;
                         </div>
                     </div>
                     <div class="small-10 cell">
-                        <h4 class = "dark-color-invert"><?php the_field('weather_information'); ?></h4>
+                        <h4 class = "dark-color-invert"><?php the_field('weather_information', $eventId); ?></h4>
+                        <?php print_r($transaction_details); ?>
                     </div>
                 </div>
             </div>
@@ -122,12 +124,7 @@ echo $pageID;
         <div class="grid-container">
             <div class="grid-x grid-padding-x padding-outer">
                 <div class="small-12 cell">
-                    <?php if (have_posts()) : while (have_posts()) : the_post();
-                        the_content();
-                    endwhile;
-                    else: ?>
-                        <p>Sorry, no posts matched your criteria.</p>
-                    <?php endif; ?>
+                    <?php the_content(); ?>
                 </div>
             </div>
         </div>

@@ -14,13 +14,6 @@
 $eventId = get_event_id();
 get_header(); ?>
 
-<?php
-
-$pageID = $post->ID;
-echo $pageID;
-
-?>
-
     <div class="full-width main-background">
         <div class="grid-container">
             <div class="grid-x grid-padding-x ">
@@ -50,7 +43,7 @@ echo $pageID;
     <div class="blue-background serve-margin-pull full-width">
         <div class="grid-x grid-container">
             <div class="small-12 cell">
-                <h2 class="dark-color-invert small-font-mobile">Details (Post <?php echo $eventId; ?>)</h2>
+                <h2 class="dark-color-invert small-font-mobile">Details</h2>
             </div>
             <div class="small-12 cell padding-bottom">
                 <p class = "dark-color-invert no-spacing"><?php the_field('event_description', $eventId); ?></p>

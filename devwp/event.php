@@ -14,6 +14,13 @@
 $eventId = get_event_id();
 get_header(); ?>
 
+<?php
+
+$pageID = $post->ID;
+echo $pageID;
+
+?>
+
     <div class="full-width main-background">
         <div class="grid-container">
             <div class="grid-x grid-padding-x ">

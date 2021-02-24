@@ -118,12 +118,12 @@ get_header(); ?>
                                             <h2 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h2>
                                             <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
                                             <div class="grid-x icon-box">
-                                                <div class="small-4 cell <?php the_sub_field('background_check'); ?>">
+                                                <div class="small-4 cell <?php the_sub_field('outdoor_event'); ?>">
                                                     <div class="center">
                                                         <img class="center"
-                                                             src="https://img.icons8.com/pastel-glyph/40/000000/check-file--v3.png"/>
+                                                             src="https://img.icons8.com/ios/50/000000/partly-cloudy-day--v1.png"/>
                                                     </div>
-                                                    <p class="center no-spacing">Background Check</p>
+                                                    <p class="center no-spacing">Outdoor Event</p>
                                                 </div>
                                                 <div class="small-4 cell <?php the_sub_field('family_friendly'); ?>">
                                                     <div class="center">

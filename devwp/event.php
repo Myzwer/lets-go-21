@@ -13,6 +13,13 @@
 
 get_header(); ?>
 
+<?php
+
+$pageID = $post->ID;
+echo $pageID;
+
+?>
+
     <div class="full-width main-background">
         <div class="grid-container">
             <div class="grid-x grid-padding-x ">
@@ -24,7 +31,7 @@ get_header(); ?>
                 </div>
 
                 <div class="small-12 cell">
-                    <h1 class = "light-color-invert xl-title"><?php the_field('organization_name'); ?></h1>
+                    <h1 class = "light-color-invert xl-title"><?php the_field('organization_name' , $pageID); ?></h1>
                     <p class = "no-spacing">Scroll down to see available times.</p>
                 </div>
             </div>

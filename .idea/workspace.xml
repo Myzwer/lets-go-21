@@ -19,9 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":rocket: Added the ACF required to begin testing the dev team's side of things. The images are still static, and some of the text is as well.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Added a function that decreased the ticket reserve timer from 1 hour to 10 minutes.">
+      <change afterPath="$PROJECT_DIR$/devwp/privacy-policy.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/confirmation.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/confirmation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/event.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/event.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_colors.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +104,7 @@
       <workItem from="1606754988007" duration="1324000" />
       <workItem from="1613055663840" duration="1146000" />
       <workItem from="1613505798213" duration="2036000" />
-      <workItem from="1613572599056" duration="95655000" />
+      <workItem from="1613572599056" duration="100294000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -324,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614148312622</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary=":hammer: Added a function that decreased the ticket reserve timer from 1 hour to 10 minutes.">
+      <created>1614180449473</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1614180449473</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +356,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":scroll: Updated the theme name across all files." />
     <MESSAGE value=":art: Updated the scss color palette variables." />
     <MESSAGE value=":art: Added Druk Text Wide as the header font and switched gotham to the body font. Also removed raleway font." />
     <MESSAGE value=":art: Updated the base typography styles." />
@@ -368,13 +380,14 @@
     <MESSAGE value=":rocket: Finished the style and layout of the checkout confirmation page." />
     <MESSAGE value=":construction: Moved the sign up section to the top of the events page for better UX." />
     <MESSAGE value=":rocket: Added the ACF required to begin testing the dev team's side of things. The images are still static, and some of the text is as well." />
-    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Added the ACF required to begin testing the dev team's side of things. The images are still static, and some of the text is as well." />
+    <MESSAGE value=":hammer: Added a function that decreased the ticket reserve timer from 1 hour to 10 minutes." />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Added a function that decreased the ticket reserve timer from 1 hour to 10 minutes." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="707" y="483" key="NewPhpFileDialog" timestamp="1614099456872">
+    <state x="707" y="483" key="NewPhpFileDialog" timestamp="1614195109468">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="707" y="483" key="NewPhpFileDialog/-1920.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1613507209012" />
-    <state x="707" y="483" key="NewPhpFileDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1614099456872" />
+    <state x="707" y="483" key="NewPhpFileDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1614195109468" />
   </component>
 </project>

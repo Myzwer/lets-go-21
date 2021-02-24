@@ -68,7 +68,13 @@ get_header(); ?>
             <div class="small-12 cell">
                 <div class="margin-bottom">
                     <h4 class="dark-color-invert no-spacing">I need to make a change to my serving time.</h4>
-                    <p class="no-spacing dark-color-invert"><?php the_field('answer_1'); ?></p>
+                    <p class="no-spacing dark-color-invert">
+                    <?php
+
+                    $other_page = 152;
+
+                    the_field('answer_1', $other_page); ?></p>
+
                 </div>
             </div>
 
@@ -76,7 +82,7 @@ get_header(); ?>
                 <div class="margin-bottom">
                     <h4 class="dark-color-invert no-spacing">I have a friend who wants to come last minute, is that
                         ok?</h4>
-                    <p class="no-spacing dark-color-invert"><?php the_field('answer_2'); ?></p>
+                    <p class="no-spacing dark-color-invert"><?php the_field('answer_2', ); ?></p>
                 </div>
             </div>
 

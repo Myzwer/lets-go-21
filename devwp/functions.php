@@ -34,9 +34,15 @@ add_action('wp_enqueue_scripts', 'scripts_loadin');
 
 
 //*****************************************************
-//********************* FONTS *************************
+//***************** EVENT ESPRESSO ********************
 //*****************************************************
 
+//Shorten Reservation Timer
+
+function tw_ee_change_session_lifespan() {
+    return 10 * MINUTE_IN_SECONDS;
+}
+add_filter( 'FHEE__EE_Session__construct___lifespan', 'tw_ee_change_session_lifespan');
 
 
 

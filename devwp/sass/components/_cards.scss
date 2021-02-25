@@ -116,6 +116,10 @@
   }
 }
 
+.tall-image {
+  max-height: 450px;
+  max-width: 230px;
+}
 
 // Height Locks for Cards, desktop only. Mobile will size as needed.
 @media screen and (min-width: 50em) {

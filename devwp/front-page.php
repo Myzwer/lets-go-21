@@ -438,7 +438,7 @@ get_header(); ?>
                                     <!-- Left / Top -->
                                     <div class="small-12 medium-4 large-12 cell top-corners relative corner-override"
                                          style="background: <?php the_sub_field('event_gradient'); ?>;">
-                                        <div class="card-center">
+                                        <div class="card-center tall-image">
                                             <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
                                         </div>
                                     </div>
@@ -491,7 +491,7 @@ get_header(); ?>
                                     <!-- Left / Top -->
                                     <div class="small-12 medium-4 large-12 cell top-corners relative corner-override"
                                          style="background: <?php the_sub_field('event_gradient'); ?>;">
-                                        <div class="card-center">
+                                        <div class="card-center tall-image">
                                             <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
                                         </div>
                                     </div>
@@ -598,7 +598,7 @@ get_header(); ?>
                                     <!-- Left / Top -->
                                     <div class="small-12 medium-4 large-12 cell top-corners relative corner-override"
                                          style="background: <?php the_sub_field('event_gradient'); ?>;">
-                                        <div class="card-center">
+                                        <div class="card-center ">
                                             <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
                                         </div>
                                     </div>
@@ -759,7 +759,7 @@ get_header(); ?>
 
                     <!-- ************ ROW 6 ************* -->
                     <?php if (have_rows('event_13')): ?>
-                        <?php while (have_rows('event_7')): the_row(); ?>
+                        <?php while (have_rows('event_13')): the_row(); ?>
                             <div class="small-12 large-4 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
                                 <div class="grid-x lock-tall"><!-- Card 2 Inner / Height Locks -->
 
@@ -819,7 +819,7 @@ get_header(); ?>
                                     <!-- Left / Top -->
                                     <div class="small-12 medium-4 large-12 cell relative top-corners corner-override"
                                          style="background: <?php the_sub_field('event_gradient'); ?>;">
-                                        <div class="card-center">
+                                        <div class="card-center tall-image">
                                             <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
                                         </div>
                                     </div>

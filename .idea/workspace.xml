@@ -19,9 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Updated a few minor things on the frontpage, specifically switching out the background check icon and text for a weather related one.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":shirt: Removed debug statements from Events page.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/event.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/event.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_cards.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +102,7 @@
       <workItem from="1606754988007" duration="1324000" />
       <workItem from="1613055663840" duration="1146000" />
       <workItem from="1613505798213" duration="2036000" />
-      <workItem from="1613572599056" duration="104429000" />
+      <workItem from="1613572599056" duration="111713000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -345,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614199890063</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary=":shirt: Removed debug statements from Events page.">
+      <created>1614208961318</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1614208961318</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,7 +375,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":art: Updated the base typography styles." />
     <MESSAGE value=":art: Updated the button styles across the site." />
     <MESSAGE value=":rocket: Finished the header image, thought i suspect the image will be replaced or tweaked for negative space and color reasons." />
     <MESSAGE value=":rocket: Finished the rough layout for the why / about section on the homepage." />
@@ -389,7 +399,8 @@
     <MESSAGE value=":hammer: Added a function that decreased the ticket reserve timer from 1 hour to 10 minutes." />
     <MESSAGE value=":heavy-plus-sign: Added the privacy policy page." />
     <MESSAGE value=":hammer: Updated a few minor things on the frontpage, specifically switching out the background check icon and text for a weather related one." />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Updated a few minor things on the frontpage, specifically switching out the background check icon and text for a weather related one." />
+    <MESSAGE value=":shirt: Removed debug statements from Events page." />
+    <option name="LAST_COMMIT_MESSAGE" value=":shirt: Removed debug statements from Events page." />
   </component>
   <component name="WindowStateProjectService">
     <state x="707" y="483" key="NewPhpFileDialog" timestamp="1614195109468">

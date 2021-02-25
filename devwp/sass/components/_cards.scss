@@ -50,11 +50,25 @@
   }
 }
 
+.top-corners {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.bottom-corners {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
 
 
 // Card Content
 .card-contents {
   background-color: $background;
+
+  h2 {
+    font-size: 1.3em;
+  }
 }
 
 
@@ -82,12 +96,13 @@
 // Height Locks for Cards, desktop only. Mobile will size as needed.
 @media screen and (min-width: 40em) {
   .lock-tall {
-    height: 600px;
+    height: 850px;
   }
 
   .lock-tall-half {
-    height: 315px;
+    height: 440px;
   }
+
 }
 
 

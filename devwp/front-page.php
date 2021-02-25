@@ -157,7 +157,7 @@ get_header(); ?>
                     <!-- ************ ROW 2 ************* -->
             <?php if (have_rows('event_2')): ?>
                 <?php while (have_rows('event_2')): the_row(); ?>
-                    <div class="small-12 medium-8 cell"><!-- This sets the length of the first stack of cards -->
+                    <div class="small-12 large-8 cell"><!-- This sets the length of the first stack of cards -->
                         <div class="grid-x">
                             <div class="small-12 cell"><!-- Card 2 LONG Outer -->
                                 <div class="grid-x lock-tall-half"><!-- Card 2 Inner / Height Locks -->
@@ -269,7 +269,7 @@ get_header(); ?>
 
                     <?php if (have_rows('event_4')): ?>
                         <?php while (have_rows('event_4')): the_row(); ?>
-                            <div class="small-12 medium-4 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
+                            <div class="small-12 large-4 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
                                 <div class="grid-x lock-tall"><!-- Card 2 Inner / Height Locks -->
 
                                     <!-- Left / Top -->
@@ -324,7 +324,7 @@ get_header(); ?>
                     <!-- ************ ROW 3 ************* -->
                     <?php if (have_rows('event_5')): ?>
                         <?php while (have_rows('event_5')): the_row(); ?>
-                            <div class="small-12 medium-6 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
+                            <div class="small-12 large-6 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
                                 <div class="grid-x lock-tall-half"><!-- Card 2 Inner / Height Locks -->
 
                                     <!-- Left / Top -->
@@ -378,7 +378,7 @@ get_header(); ?>
                     <?php if (have_rows('event_6')): ?>
                         <?php while (have_rows('event_6')): the_row(); ?>
 
-                            <div class="small-12 medium-6 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
+                            <div class="small-12 large-6 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
                                 <div class="grid-x lock-tall-half"><!-- Card 2 Inner / Height Locks -->
 
                                     <!-- Left / Top -->
@@ -432,7 +432,7 @@ get_header(); ?>
                     <!-- ************ ROW 4 ************* -->
                     <?php if (have_rows('event_7')): ?>
                         <?php while (have_rows('event_7')): the_row(); ?>
-                            <div class="small-12 medium-4 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
+                            <div class="small-12 large-4 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
                                 <div class="grid-x lock-tall"><!-- Card 2 Inner / Height Locks -->
 
                                     <!-- Left / Top -->
@@ -485,7 +485,7 @@ get_header(); ?>
 
                     <?php if (have_rows('event_8')): ?>
                         <?php while (have_rows('event_8')): the_row(); ?>
-                            <div class="small-12 medium-4 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
+                            <div class="small-12 large-4 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
                                 <div class="grid-x lock-tall"><!-- Card 2 Inner / Height Locks -->
 
                                     <!-- Left / Top -->
@@ -538,7 +538,7 @@ get_header(); ?>
 
                     <?php if (have_rows('event_9')): ?>
                         <?php while (have_rows('event_9')): the_row(); ?>
-                            <div class="small-12 medium-4 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
+                            <div class="small-12 large-4 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
                                 <div class="grid-x lock-tall"><!-- Card 2 Inner / Height Locks -->
 
                                     <!-- Left / Top -->
@@ -592,7 +592,7 @@ get_header(); ?>
                     <!-- ************ ROW 5 ************* -->
                     <?php if (have_rows('event_10')): ?>
                         <?php while (have_rows('event_10')): the_row(); ?>
-                            <div class="small-12 medium-5 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
+                            <div class="small-12 large-5 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
                                 <div class="grid-x lock-tall"><!-- Card 2 Inner / Height Locks -->
 
                                     <!-- Left / Top -->
@@ -646,7 +646,7 @@ get_header(); ?>
                     <?php if (have_rows('event_11')): ?>
                 <?php while (have_rows('event_11')):
                 the_row(); ?>
-                    <div class="small-12 medium-7 cell"><!-- This sets the length of the first stack of cards -->
+                    <div class="small-12 large-7 cell"><!-- This sets the length of the first stack of cards -->
                         <div class="grid-x">
                             <div class="small-12 cell"><!-- Card 1 LONG Outer -->
                                 <div class="grid-x lock-tall-half"><!-- Card 1 Inner / Height Locks -->
@@ -760,7 +760,7 @@ get_header(); ?>
                     <!-- ************ ROW 6 ************* -->
                     <?php if (have_rows('event_13')): ?>
                         <?php while (have_rows('event_7')): the_row(); ?>
-                            <div class="small-12 medium-4 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
+                            <div class="small-12 large-4 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
                                 <div class="grid-x lock-tall"><!-- Card 2 Inner / Height Locks -->
 
                                     <!-- Left / Top -->
@@ -813,7 +813,7 @@ get_header(); ?>
 
                     <?php if (have_rows('event_14')): ?>
                         <?php while (have_rows('event_14')): the_row(); ?>
-                            <div class="small-12 medium-4 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
+                            <div class="small-12 large-4 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
                                 <div class="grid-x lock-tall"><!-- Card 2 Inner / Height Locks -->
 
                                     <!-- Left / Top -->
@@ -866,7 +866,7 @@ get_header(); ?>
 
                     <?php if (have_rows('event_15')): ?>
                         <?php while (have_rows('event_15')): the_row(); ?>
-                            <div class="small-12 medium-4 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
+                            <div class="small-12 large-4 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
                                 <div class="grid-x lock-tall"><!-- Card 2 Inner / Height Locks -->
 
                                     <!-- Left / Top -->

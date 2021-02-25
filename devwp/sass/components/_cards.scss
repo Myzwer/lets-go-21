@@ -13,9 +13,15 @@
 // Makes sure the margin pushes the cards in so they are full width, but with padding
 .card-outer {
   margin: 0 3%;
-  max-width: 2000px;
 }
 
+@media screen and (min-width: 84em) {
+  .card-outer {
+    max-width: 84em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 // Gradient Background Colors
 .gradient-1 {
@@ -74,7 +80,7 @@
 
 
 // Desktop only, as mobile will fill in where needed
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 50em) {
   .card-center {
     position: absolute;
     top: 50%;
@@ -94,7 +100,7 @@
 
 
 // Height Locks for Cards, desktop only. Mobile will size as needed.
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 50em) {
   .lock-tall {
     height: 850px;
   }
@@ -102,7 +108,26 @@
   .lock-tall-half {
     height: 440px;
   }
+}
 
+@media screen and (min-width: 64em) {
+  .lock-tall {
+    height: 1050px;
+  }
+
+  .lock-tall-half {
+    height: 540px;
+  }
+}
+
+@media screen and (min-width: 81em) {
+  .lock-tall {
+    height: 850px;
+  }
+
+  .lock-tall-half {
+    height: 440px;
+  }
 }
 
 

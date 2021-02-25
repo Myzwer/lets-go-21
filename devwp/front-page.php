@@ -163,7 +163,7 @@ get_header(); ?>
                                 <div class="grid-x lock-tall-half"><!-- Card 2 Inner / Height Locks -->
 
                                     <!-- Left / Top -->
-                                    <div class="small-12 medium-5 large-4 cell card-margin-bottom-desktop gradient-corners relative"
+                                    <div class="small-12 medium-4 large-4 cell card-margin-bottom-desktop gradient-corners relative"
                                          style="background: <?php the_sub_field('event_gradient'); ?>;">
                                         <div class="card-center">
                                             <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
@@ -171,7 +171,7 @@ get_header(); ?>
                                     </div>
 
                                     <!-- Right / Bottom -->
-                                    <div class="small-12 medium-7 large-8 cell card-margin-bottom card-contents relative content-corners">
+                                    <div class="small-12 medium-8 large-8 cell card-margin-bottom card-contents relative content-corners">
                                         <div class="card-content-center">
                                             <h2 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h2>
                                             <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
@@ -217,7 +217,7 @@ get_header(); ?>
                                 <div class="grid-x lock-tall-half"><!-- Card 2 Inner / Height Locks -->
 
                                     <!-- Left / Top -->
-                                    <div class="small-12 medium-5 large-4 cell card-margin-bottom-desktop relative gradient-corners"
+                                    <div class="small-12 medium-4 large-4 cell card-margin-bottom-desktop relative gradient-corners"
                                          style="background: <?php the_sub_field('event_gradient'); ?>;">
                                         <div class="card-center">
                                             <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
@@ -225,7 +225,7 @@ get_header(); ?>
                                     </div>
 
                                     <!-- Right / Bottom -->
-                                    <div class="small-12 medium-7 large-8 cell card-margin-bottom card-contents relative content-corners">
+                                    <div class="small-12 medium-8 large-8 cell card-margin-bottom card-contents relative content-corners">
                                         <div class="card-content-center">
                                             <h2 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h2>
                                             <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
@@ -273,7 +273,7 @@ get_header(); ?>
                                 <div class="grid-x lock-tall"><!-- Card 2 Inner / Height Locks -->
 
                                     <!-- Left / Top -->
-                                    <div class="small-12 cell relative top-corners"
+                                    <div class="small-12 medium-4 large-12 cell relative top-corners corner-override"
                                          style="background: <?php the_sub_field('event_gradient'); ?>;">
                                         <div class="card-center">
                                             <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
@@ -281,7 +281,7 @@ get_header(); ?>
                                     </div>
 
                                     <!-- Right / Bottom -->
-                                    <div class="small-12 cell card-contents relative bottom-corners">
+                                    <div class="small-12 medium-8 large-12 cell card-contents relative bottom-corners corner-override-2">
                                         <div class="card-content-center">
                                             <h2 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h2>
                                             <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
@@ -436,7 +436,7 @@ get_header(); ?>
                                 <div class="grid-x lock-tall"><!-- Card 2 Inner / Height Locks -->
 
                                     <!-- Left / Top -->
-                                    <div class="small-12 cell top-corners relative"
+                                    <div class="small-12 medium-4 large-12 cell top-corners relative corner-override"
                                          style="background: <?php the_sub_field('event_gradient'); ?>;">
                                         <div class="card-center">
                                             <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
@@ -444,7 +444,7 @@ get_header(); ?>
                                     </div>
 
                                     <!-- Right / Bottom -->
-                                    <div class="small-12 cell card-contents bottom-corners relative">
+                                    <div class="small-12 medium-8 large-12 cell card-contents bottom-corners relative corner-override-2">
                                         <div class="card-content-center">
                                             <h2 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h2>
                                             <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
@@ -489,7 +489,7 @@ get_header(); ?>
                                 <div class="grid-x lock-tall"><!-- Card 2 Inner / Height Locks -->
 
                                     <!-- Left / Top -->
-                                    <div class="small-12 cell top-corners relative"
+                                    <div class="small-12 medium-4 large-12 cell top-corners relative corner-override"
                                          style="background: <?php the_sub_field('event_gradient'); ?>;">
                                         <div class="card-center">
                                             <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
@@ -497,7 +497,7 @@ get_header(); ?>
                                     </div>
 
                                     <!-- Right / Bottom -->
-                                    <div class="small-12 cell card-contents bottom-corners relative">
+                                    <div class="small-12 medium-8 large-12 cell card-contents bottom-corners relative corner-override-2">
                                         <div class="card-content-center">
                                             <h2 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h2>
                                             <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
@@ -542,7 +542,7 @@ get_header(); ?>
                                 <div class="grid-x lock-tall"><!-- Card 2 Inner / Height Locks -->
 
                                     <!-- Left / Top -->
-                                    <div class="small-12 cell top-corners relative"
+                                    <div class="small-12 medium-4 large-12 cell top-corners relative corner-override"
                                          style="background: <?php the_sub_field('event_gradient'); ?>;">
                                         <div class="card-center">
                                             <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
@@ -550,7 +550,7 @@ get_header(); ?>
                                     </div>
 
                                     <!-- Right / Bottom -->
-                                    <div class="small-12 cell card-contents relative bottom-corners">
+                                    <div class="small-12 medium-8 large-12 cell card-contents relative bottom-corners corner-override-2">
                                         <div class="card-content-center">
                                             <h2 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h2>
                                             <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
@@ -596,7 +596,7 @@ get_header(); ?>
                                 <div class="grid-x lock-tall"><!-- Card 2 Inner / Height Locks -->
 
                                     <!-- Left / Top -->
-                                    <div class="small-12 cell top-corners relative"
+                                    <div class="small-12 medium-4 large-12 cell top-corners relative corner-override"
                                          style="background: <?php the_sub_field('event_gradient'); ?>;">
                                         <div class="card-center">
                                             <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
@@ -604,7 +604,7 @@ get_header(); ?>
                                     </div>
 
                                     <!-- Right / Bottom -->
-                                    <div class="small-12 cell card-contents relative bottom-corners">
+                                    <div class="small-12 medium-8 large-12 cell card-contents relative bottom-corners corner-override-2">
                                         <div class="card-content-center">
                                             <h2 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h2>
                                             <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
@@ -652,7 +652,7 @@ get_header(); ?>
                                 <div class="grid-x lock-tall-half"><!-- Card 1 Inner / Height Locks -->
 
                                     <!-- Left / Top -->
-                                    <div class="small-12 medium-5 large-4 cell card-margin-bottom-desktop gradient-corners relative"
+                                    <div class="small-12 medium-4 large-4 cell card-margin-bottom-desktop gradient-corners relative"
                                          style="background: <?php the_sub_field('event_gradient'); ?>;">
                                         <div class="card-center">
                                             <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
@@ -660,7 +660,7 @@ get_header(); ?>
                                     </div>
 
                                     <!-- Right / Bottom -->
-                                    <div class="small-12 medium-7 large-8 cell card-margin-bottom card-contents relative content-corners">
+                                    <div class="small-12 medium-8 large-8 cell card-margin-bottom card-contents relative content-corners">
                                         <div class="card-content-center">
                                             <h2 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h2>
                                             <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
@@ -706,7 +706,7 @@ get_header(); ?>
                                         <div class="grid-x lock-tall-half"><!-- Card 2 Inner / Height Locks -->
 
                                             <!-- Left / Top -->
-                                            <div class="small-12 medium-5 large-4 cell card-margin-bottom-desktop gradient-corners relative"
+                                            <div class="small-12 medium-4 large-4 cell card-margin-bottom-desktop gradient-corners relative"
                                                  style="background: <?php the_sub_field('event_gradient'); ?>;">
                                                 <div class="card-center">
                                                     <img src="<?php the_sub_field('event_image'); ?>"
@@ -715,7 +715,7 @@ get_header(); ?>
                                             </div>
 
                                             <!-- Right / Bottom -->
-                                            <div class="small-12 medium-7 large-8 cell card-margin-bottom card-contents relative content-corners">
+                                            <div class="small-12 medium-8 large-8 cell card-margin-bottom card-contents relative content-corners">
                                                 <div class="card-content-center">
                                                     <h2 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h2>
                                                     <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
@@ -764,7 +764,7 @@ get_header(); ?>
                                 <div class="grid-x lock-tall"><!-- Card 2 Inner / Height Locks -->
 
                                     <!-- Left / Top -->
-                                    <div class="small-12 cell relative top-corners"
+                                    <div class="small-12 medium-4 large-12 cell relative top-corners corner-override"
                                          style="background: <?php the_sub_field('event_gradient'); ?>;">
                                         <div class="card-center">
                                             <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
@@ -772,7 +772,7 @@ get_header(); ?>
                                     </div>
 
                                     <!-- Right / Bottom -->
-                                    <div class="small-12 cell card-contents relative bottom-corners">
+                                    <div class="small-12 medium-8 large-12 cell card-contents relative bottom-corners corner-override-2">
                                         <div class="card-content-center">
                                             <h2 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h2>
                                             <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
@@ -817,7 +817,7 @@ get_header(); ?>
                                 <div class="grid-x lock-tall"><!-- Card 2 Inner / Height Locks -->
 
                                     <!-- Left / Top -->
-                                    <div class="small-12 cell relative top-corners"
+                                    <div class="small-12 medium-4 large-12 cell relative top-corners corner-override"
                                          style="background: <?php the_sub_field('event_gradient'); ?>;">
                                         <div class="card-center">
                                             <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
@@ -825,7 +825,7 @@ get_header(); ?>
                                     </div>
 
                                     <!-- Right / Bottom -->
-                                    <div class="small-12 cell card-contents relative bottom-corners">
+                                    <div class="small-12 medium-8 large-12 cell card-contents relative bottom-corners corner-override-2">
                                         <div class="card-content-center">
                                             <h2 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h2>
                                             <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
@@ -870,7 +870,7 @@ get_header(); ?>
                                 <div class="grid-x lock-tall"><!-- Card 2 Inner / Height Locks -->
 
                                     <!-- Left / Top -->
-                                    <div class="small-12 cell top-corners relative"
+                                    <div class="small-12 medium-4 large-12 cell top-corners relative corner-override"
                                          style="background: <?php the_sub_field('event_gradient'); ?>;">
                                         <div class="card-center">
                                             <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
@@ -878,8 +878,17 @@ get_header(); ?>
                                     </div>
 
                                     <!-- Right / Bottom -->
-                                    <div class="small-12 cell card-contents relative bottom-corners">
-                                        <!-- Card Contents -->
+                                    <div class="small-12 medium-8 large-12 cell card-contents relative bottom-corners corner-override-2">
+                                        <div class="card-content-center">
+                                            <h2 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h2>
+                                            <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
+
+
+                                            <div class="center margin-bottom">
+                                                <a href="<?php the_field('registration_link'); ?>"></a>
+                                                <button class="btn btn-v1 register-button">Let's Go!</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div><!-- Card 3 Inner End -->
                             </div><!-- Card 3 Outer End -->

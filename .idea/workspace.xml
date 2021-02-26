@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Various homepage fixes, added a new card, fixed the way the images behave on mobile, a few other minor edits.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":Rocket: Added a homepage link to the footer as well as made sure the privacy policy link worked.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/event.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/event.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +98,7 @@
       <workItem from="1606754988007" duration="1324000" />
       <workItem from="1613055663840" duration="1146000" />
       <workItem from="1613505798213" duration="2036000" />
-      <workItem from="1613572599056" duration="126467000" />
+      <workItem from="1613572599056" duration="129312000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -387,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614334761231</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary=":Rocket: Added a homepage link to the footer as well as made sure the privacy policy link worked.">
+      <created>1614338471805</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1614338471805</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,7 +413,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":art: Made the Notice banner in the serve section on the homepage look prettier via some spacing and a background." />
     <MESSAGE value=":rocket: Got the homepage card set up, though I have plans in the future to make it more dynamic than it currently is." />
     <MESSAGE value=":rocket: Changed the footer to what it will be. Since the site is primarily 1 page, a large footer is not necessary." />
     <MESSAGE value=":rocket: Updated the homepage to have the correct text logo, as well as updated the icons in the about section on the homepage." />
@@ -431,7 +437,8 @@
     <MESSAGE value=":rocket: Fixed the cards on the homepage! Works across all devices now, looks great! Images might cause issues once they get added in, but seemingly the page is functional across all devices." />
     <MESSAGE value=":hammer: Made a handful of edits to help resize the images, as some of them were aggressively breaking out of their containers." />
     <MESSAGE value=":hammer: Various homepage fixes, added a new card, fixed the way the images behave on mobile, a few other minor edits." />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Various homepage fixes, added a new card, fixed the way the images behave on mobile, a few other minor edits." />
+    <MESSAGE value=":Rocket: Added a homepage link to the footer as well as made sure the privacy policy link worked." />
+    <option name="LAST_COMMIT_MESSAGE" value=":Rocket: Added a homepage link to the footer as well as made sure the privacy policy link worked." />
   </component>
   <component name="WindowStateProjectService">
     <state x="707" y="483" key="NewPhpFileDialog" timestamp="1614195109468">

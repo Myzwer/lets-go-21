@@ -19,14 +19,25 @@ get_header(); ?>
             <div class="grid-x grid-padding-x ">
                 <div class="small-12 cell">
                     <div class="margin-bottom">
-                        <a href="#"></a>
-                        <button class="btn btn-v1 register-button"><< Back to Homepage</button>
+                        <a href="/frontpage">
+                            <button class="btn btn-v1 register-button"><< Back to Homepage</button>
+                        </a>
                     </div>
                 </div>
 
                 <div class="small-12 cell">
                     <h1 class = "light-color-invert xl-title"><?php the_field('organization_name', $eventId); ?></h1>
-                    <p class = "no-spacing">Scroll down to see available times.</p>
+                    <p class = "no-spacing">Scroll down to see event specific details.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="full-width main-background">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x padding-outer">
+                <div class="small-12 cell">
+                    <?php the_content(); ?>
                 </div>
             </div>
         </div>
@@ -35,7 +46,7 @@ get_header(); ?>
     <div class="full-width">
         <div class="grid-x ">
             <div class="small-12 cell">
-                <img class="waves" src="http://lets-go.local/wp-content/uploads/2021/02/Vector-Top-Small.png" alt="">
+                <img class="waves" src="https://letsgoserve.com/wp-content/uploads/2021/02/Vector-Top-Small.png" alt="">
             </div>
         </div>
     </div>
@@ -53,7 +64,7 @@ get_header(); ?>
                 <div class="grid-x grid-container">
                     <div class="small-2 cell relative">
                         <div class="icon-center">
-                            <img class = "icons" src="http://lets-go.local/wp-content/uploads/2021/02/Pin-Marker.png"/>
+                            <img class = "icons" src="https://letsgoserve.com/wp-content/uploads/2021/02/Pin-Marker.png"/>
                         </div>
                     </div>
                     <div class="small-10 cell">
@@ -66,7 +77,7 @@ get_header(); ?>
                 <div class="grid-x grid-container">
                     <div class="small-2 cell relative">
                         <div class="icon-center">
-                            <img class = "icons" src="http://lets-go.local/wp-content/uploads/2021/02/Family-Friendly.png"/>
+                            <img class = "icons" src="https://letsgoserve.com/wp-content/uploads/2021/02/Family-Friendly.png"/>
                         </div>
                     </div>
                     <div class="small-10 cell">
@@ -79,7 +90,7 @@ get_header(); ?>
                 <div class="grid-x grid-container">
                     <div class="small-2 cell relative">
                         <div class="icon-center">
-                            <img class = "icons" src="http://lets-go.local/wp-content/uploads/2021/02/Mask.png"/>
+                            <img class = "icons" src="https://letsgoserve.com/wp-content/uploads/2021/02/Mask.png"/>
                         </div>
                     </div>
                     <div class="small-10 cell">
@@ -88,11 +99,11 @@ get_header(); ?>
                 </div>
             </div>
 
-            <div class="small-12 cell margin-bottom">
+            <div class="small-12 cell margin-bottom padding-bottom">
                 <div class="grid-x grid-container">
                     <div class="small-2 cell relative">
                         <div class="icon-center">
-                            <img class = "icons" src="http://lets-go.local/wp-content/uploads/2021/02/Weather.png"/>
+                            <img class = "icons" src="https://letsgoserve.com/wp-content/uploads/2021/02/Weather.png"/>
                         </div>
                     </div>
                     <div class="small-10 cell">
@@ -104,24 +115,15 @@ get_header(); ?>
         </div>
     </div>
 
-    <div class="full-width">
+<!--    <div class="full-width">
         <div class="grid-x ">
             <div class="small-12 low-z-index cell">
-                <img class="waves" src="http://lets-go.local/wp-content/uploads/2021/02/Header-Small.png" alt="">
+                <img class="waves" src="https://letsgoserve.com/wp-content/uploads/2021/02/Header-Small.png" alt="">
             </div>
         </div>
-    </div>
+    </div>-->
 
 
-    <div class="full-width main-background">
-        <div class="grid-container">
-            <div class="grid-x grid-padding-x padding-outer">
-                <div class="small-12 cell">
-                    <?php the_content(); ?>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
 

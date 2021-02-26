@@ -51,7 +51,7 @@ get_header(); ?>
     <div class="full-width">
         <div class="grid-x ">
             <div class="small-12 cell">
-                <img class="waves" src="http://lets-go.local/wp-content/uploads/2021/02/Vector-Top-Small.png" alt="">
+                <img class="waves" src="https://letsgoserve.com/wp-content/uploads/2021/02/Vector-Top-Small.png" alt="">
             </div>
         </div>
     </div>

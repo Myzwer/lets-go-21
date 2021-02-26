@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Fixed images not loading in on the events page template, as well as moved where content loads in for better UX.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Fixed the button on the confirmation page that didn't work.">
       <change beforePath="$PROJECT_DIR$/devwp/confirmation.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/confirmation.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +97,7 @@
       <workItem from="1606754988007" duration="1324000" />
       <workItem from="1613055663840" duration="1146000" />
       <workItem from="1613505798213" duration="2036000" />
-      <workItem from="1613572599056" duration="129993000" />
+      <workItem from="1613572599056" duration="130249000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -400,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614341927491</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary=":hammer: Fixed the button on the confirmation page that didn't work.">
+      <created>1614342474446</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1614342474446</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,7 +426,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":rocket: Changed the footer to what it will be. Since the site is primarily 1 page, a large footer is not necessary." />
     <MESSAGE value=":rocket: Updated the homepage to have the correct text logo, as well as updated the icons in the about section on the homepage." />
     <MESSAGE value=":hammer: Adjusted section spacing on the homepage." />
     <MESSAGE value=":construction: Worked on the cards section on the frontpage, but its very likely that I will update the section later." />
@@ -444,7 +450,8 @@
     <MESSAGE value=":hammer: Various homepage fixes, added a new card, fixed the way the images behave on mobile, a few other minor edits." />
     <MESSAGE value=":Rocket: Added a homepage link to the footer as well as made sure the privacy policy link worked." />
     <MESSAGE value=":hammer: Fixed images not loading in on the events page template, as well as moved where content loads in for better UX." />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Fixed images not loading in on the events page template, as well as moved where content loads in for better UX." />
+    <MESSAGE value=":hammer: Fixed the button on the confirmation page that didn't work." />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Fixed the button on the confirmation page that didn't work." />
   </component>
   <component name="WindowStateProjectService">
     <state x="707" y="483" key="NewPhpFileDialog" timestamp="1614195109468">

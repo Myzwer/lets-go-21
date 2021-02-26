@@ -200,8 +200,9 @@ get_header(); ?>
                                             </div>
 
                                             <div class="center margin-bottom">
-                                                <a href="<?php the_field('registration_link'); ?>"></a>
-                                                <button class="btn btn-v1 register-button">Register</button>
+                                                <a href="<?php the_sub_field('registration_link'); ?>">
+                                                    <button class="btn btn-v1 register-button">Register</button>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -254,8 +255,9 @@ get_header(); ?>
                                             </div>
 
                                             <div class="center margin-bottom">
-                                                <a href="<?php the_field('registration_link'); ?>"></a>
-                                                <button class="btn btn-v1 register-button">Register</button>
+                                                <a href="<?php the_sub_field('registration_link'); ?>">
+                                                    <button class="btn btn-v1 register-button">Register</button>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -310,8 +312,9 @@ get_header(); ?>
                                             </div>
 
                                             <div class="center margin-bottom">
-                                                <a href="<?php the_field('registration_link'); ?>"></a>
-                                                <button class="btn btn-v1 register-button">Register</button>
+                                                <a href="<?php the_sub_field('registration_link'); ?>">
+                                                    <button class="btn btn-v1 register-button">Register</button>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -365,8 +368,9 @@ get_header(); ?>
                                             </div>
 
                                             <div class="center margin-bottom">
-                                                <a href="<?php the_field('registration_link'); ?>"></a>
-                                                <button class="btn btn-v1 register-button">Register</button>
+                                                <a href="<?php the_sub_field('registration_link'); ?>">
+                                                    <button class="btn btn-v1 register-button">Register</button>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -419,8 +423,9 @@ get_header(); ?>
                                             </div>
 
                                             <div class="center margin-bottom">
-                                                <a href="<?php the_field('registration_link'); ?>"></a>
-                                                <button class="btn btn-v1 register-button">Register</button>
+                                                <a href="<?php the_sub_field('registration_link'); ?>">
+                                                    <button class="btn btn-v1 register-button">Register</button>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -473,8 +478,9 @@ get_header(); ?>
                                             </div>
 
                                             <div class="center margin-bottom">
-                                                <a href="<?php the_field('registration_link'); ?>"></a>
-                                                <button class="btn btn-v1 register-button">Register</button>
+                                                <a href="<?php the_sub_field('registration_link'); ?>">
+                                                    <button class="btn btn-v1 register-button">Register</button>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -526,8 +532,9 @@ get_header(); ?>
                                             </div>
 
                                             <div class="center margin-bottom">
-                                                <a href="<?php the_field('registration_link'); ?>"></a>
-                                                <button class="btn btn-v1 register-button">Register</button>
+                                                <a href="<?php the_sub_field('registration_link'); ?>">
+                                                    <button class="btn btn-v1 register-button">Register</button>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -579,8 +586,9 @@ get_header(); ?>
                                             </div>
 
                                             <div class="center margin-bottom">
-                                                <a href="<?php the_field('registration_link'); ?>"></a>
-                                                <button class="btn btn-v1 register-button">Register</button>
+                                                <a href="<?php the_sub_field('registration_link'); ?>">
+                                                    <button class="btn btn-v1 register-button">Register</button>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -633,8 +641,9 @@ get_header(); ?>
                                             </div>
 
                                             <div class="center margin-bottom">
-                                                <a href="<?php the_field('registration_link'); ?>"></a>
-                                                <button class="btn btn-v1 register-button">Register</button>
+                                                <a href="<?php the_sub_field('registration_link'); ?>">
+                                                    <button class="btn btn-v1 register-button">Register</button>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -643,8 +652,8 @@ get_header(); ?>
                         <?php endwhile; ?>
                     <?php endif; ?>
 
-                    <?php if (have_rows('event_11')): ?>
-                <?php while (have_rows('event_11')):
+                    <?php if (have_rows('event_12')): ?>
+                <?php while (have_rows('event_12')):
                 the_row(); ?>
                     <div class="small-12 large-7 cell"><!-- This sets the length of the first stack of cards -->
                         <div class="grid-x">
@@ -689,8 +698,9 @@ get_header(); ?>
                                             </div>
 
                                             <div class="center margin-bottom">
-                                                <a href="<?php the_field('registration_link'); ?>"></a>
-                                                <button class="btn btn-v1 register-button">Register</button>
+                                                <a href="<?php the_sub_field('registration_link'); ?>">
+                                                    <button class="btn btn-v1 register-button">Register</button>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -700,8 +710,8 @@ get_header(); ?>
                             <?php endif; ?>
 
 
-                            <?php if (have_rows('event_12')): ?>
-                                <?php while (have_rows('event_12')): the_row(); ?>
+                            <?php if (have_rows('event_16')): ?>
+                                <?php while (have_rows('event_16')): the_row(); ?>
                                     <div class="small-12 cell"><!-- Card 2 LONG Outer -->
                                         <div class="grid-x lock-tall-half"><!-- Card 2 Inner / Height Locks -->
 
@@ -744,8 +754,9 @@ get_header(); ?>
                                                     </div>
 
                                                     <div class="center margin-bottom">
-                                                        <a href="<?php the_field('registration_link'); ?>"></a>
-                                                        <button class="btn btn-v1 register-button">Register</button>
+                                                        <a href="<?php the_sub_field('registration_link'); ?>">
+                                                            <button class="btn btn-v1 register-button">Register</button>
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -801,8 +812,9 @@ get_header(); ?>
                                             </div>
 
                                             <div class="center margin-bottom">
-                                                <a href="<?php the_field('registration_link'); ?>"></a>
-                                                <button class="btn btn-v1 register-button">Register</button>
+                                                <a href="<?php the_sub_field('registration_link'); ?>">
+                                                    <button class="btn btn-v1 register-button">Register</button>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -854,8 +866,9 @@ get_header(); ?>
                                             </div>
 
                                             <div class="center margin-bottom">
-                                                <a href="<?php the_field('registration_link'); ?>"></a>
-                                                <button class="btn btn-v1 register-button">Register</button>
+                                                <a href="<?php the_sub_field('registration_link'); ?>">
+                                                    <button class="btn btn-v1 register-button">Register</button>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -864,8 +877,8 @@ get_header(); ?>
                         <?php endwhile; ?>
                     <?php endif; ?>
 
-                    <?php if (have_rows('event_15')): ?>
-                        <?php while (have_rows('event_15')): the_row(); ?>
+                    <?php if (have_rows('event_11')): ?>
+                        <?php while (have_rows('event_11')): the_row(); ?>
                             <div class="small-12 large-4 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
                                 <div class="grid-x lock-tall"><!-- Card 2 Inner / Height Locks -->
 
@@ -882,11 +895,68 @@ get_header(); ?>
                                         <div class="card-content-center">
                                             <h2 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h2>
                                             <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
+                                            <div class="grid-x icon-box">
+                                                <div class="small-4 cell <?php the_sub_field('outdoor_event'); ?>">
+                                                    <div class="center">
+                                                        <img class="center"
+                                                             src="https://img.icons8.com/ios/40/000000/partly-cloudy-day--v1.png"/>
+                                                    </div>
+                                                    <p class="center no-spacing">Outdoor <br>Event</p>
+                                                </div>
+                                                <div class="small-4 cell <?php the_sub_field('family_friendly'); ?>">
+                                                    <div class="center">
+                                                        <img class="center"
+                                                             src="https://img.icons8.com/ios/40/000000/children--v1.png"/>
+                                                    </div>
+                                                    <p class="center no-spacing">Family <br>Friendly</p>
+                                                </div>
+                                                <div class="small-4 cell <?php the_sub_field('mask_required'); ?>">
+                                                    <div class="center">
+                                                        <img class="center"
+                                                             src="https://img.icons8.com/ios/40/000000/protection-mask.png"/>
+                                                    </div>
+                                                    <p class="center no-spacing">Mask <br>Required</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="center margin-bottom">
+                                                <a href="<?php the_sub_field('registration_link'); ?>">
+                                                    <button class="btn btn-v1 register-button">Register</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- Card 3 Inner End -->
+                            </div><!-- Card 3 Outer End -->
+                        <?php endwhile; ?>
+                    <?php endif; ?>
+
+
+                    <!-- ************ ROW 7 ************* -->
+                    <?php if (have_rows('event_15')): ?>
+                        <?php while (have_rows('event_15')): the_row(); ?>
+                            <div class="small-12 cell card-margin-bottom "><!-- FEATURED Outer -->
+                                <div class="grid-x lock-tall-half"><!-- Card 1 Inner / Height Locks -->
+
+                                    <!-- Left / Top -->
+                                    <div class="small-12 medium-4 cell gradient-corners relative"
+                                         style="background: <?php the_sub_field('event_gradient'); ?>;">
+                                        <div class="card-center">
+                                            <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
+                                        </div>
+                                    </div>
+
+                                    <!-- Right / Bottom -->
+                                    <div class="small-12 medium-8 cell card-contents content-corners relative">
+                                        <div class="card-content-center">
+                                            <h2 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h2>
+                                            <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
 
 
                                             <div class="center margin-bottom">
-                                                <a href="<?php the_field('registration_link'); ?>"></a>
-                                                <button class="btn btn-v1 register-button">Let's Go!</button>
+                                                <a href="<?php the_sub_field('registration_link'); ?>">
+                                                    <button class="btn btn-v1 register-button">Let's Go!</button>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>

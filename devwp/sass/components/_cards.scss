@@ -96,6 +96,13 @@
 
 
 // Desktop only, as mobile will fill in where needed
+@media screen and (max-width: 39.9375em) {
+  .card-center {
+    width: 80%;
+    margin: 20px auto 20px auto;
+  }
+}
+
 @media screen and (min-width: 40em) {
   .card-center {
     position: absolute;
@@ -116,9 +123,11 @@
   }
 }
 
-.tall-image {
-  max-height: 450px;
-  max-width: 230px;
+@media screen and (min-width: 40em) {
+  .tall-image {
+    max-height: 450px;
+    max-width: 230px;
+  }
 }
 
 // Height Locks for Cards, desktop only. Mobile will size as needed.

@@ -19,7 +19,7 @@
 
 <!-- FOOTER START -->
 <div class="footer">
-    <a href="#">Privacy Policy</a>
+    <a href="/frontpage">Home</a> | <a href="/privacy-policy">Privacy Policy</a>
     <p>© 2021 Foothills Church</p>
 </div>
 <!-- END OF FOOTER -->

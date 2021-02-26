@@ -20,8 +20,9 @@ get_header(); ?>
             <div class="grid-x grid-padding-x ">
                 <div class="small-12 cell">
                     <div class="margin-bottom">
-                        <a href="#"></a>
-                        <button class="btn btn-v1 register-button"><< Back to Homepage</button>
+                        <a href="/frontpage">
+                            <button class="btn btn-v1 register-button"><< Back to Homepage</button>
+                        </a>
                     </div>
                 </div>
 

@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Fixed an image not loading in on confirmation page.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Lessened the box shadow on the events page sign up box.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_plugin-override.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_plugin-override.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-gulp/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/gulpfile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +98,7 @@
       <workItem from="1606754988007" duration="1324000" />
       <workItem from="1613055663840" duration="1146000" />
       <workItem from="1613505798213" duration="2036000" />
-      <workItem from="1613572599056" duration="132010000" />
+      <workItem from="1613572599056" duration="133024000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -418,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614342724506</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary=":hammer: Lessened the box shadow on the events page sign up box.">
+      <created>1614344621082</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1614344621082</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,7 +441,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":hammer: Adjusted section spacing on the homepage." />
     <MESSAGE value=":construction: Worked on the cards section on the frontpage, but its very likely that I will update the section later." />
     <MESSAGE value=":construction: Reworked the cards for the serving section on the homepage. The basic layout is now done, but there will need to be a bunch of edits made to get the content to look right still." />
     <MESSAGE value=":rocket: Updated the entire cards section on the homepage as well as all the scss. There will be bug testing requried, but converting it to ACF sooner rather than later will be a huge help in the long run. TLDR: Cards are done until ACF is added." />
@@ -462,7 +465,8 @@
     <MESSAGE value=":hammer: Fixed images not loading in on the events page template, as well as moved where content loads in for better UX." />
     <MESSAGE value=":hammer: Fixed the button on the confirmation page that didn't work." />
     <MESSAGE value=":hammer: Fixed an image not loading in on confirmation page." />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Fixed an image not loading in on confirmation page." />
+    <MESSAGE value=":hammer: Lessened the box shadow on the events page sign up box." />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Lessened the box shadow on the events page sign up box." />
   </component>
   <component name="WindowStateProjectService">
     <state x="707" y="483" key="NewPhpFileDialog" timestamp="1614195109468">

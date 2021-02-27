@@ -32,7 +32,7 @@
 .tkt-slctr-tbl thead, .tkt-slctr-tbl tbody {
   background-color: $blue;
   color: $white;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   border: 0;
 }
 
@@ -67,7 +67,7 @@
 
 
 //button edits
-.ticket-selector-submit-btn-wrap input{
+.ticket-selector-submit-btn-wrap input {
 
   font-family: $main-font;
   box-sizing: border-box;
@@ -87,11 +87,10 @@
   border: 0;
   color: #fff;
   border-radius: 140px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   background: {
-    image:
-            linear-gradient(45deg, $blue 50%,
-                    transparent 50%);
+    image: linear-gradient(45deg, $blue 50%,
+            transparent 50%);
     position: 100%;
     size: 400%;
   }
@@ -99,11 +98,11 @@
 
   &:hover {
     background-position: 0;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   }
 
   &:focus {
-    border: none;
+    outline: none !important;
   }
 
   &:active {
@@ -132,7 +131,6 @@
 }
 
 
-
 // Second Page
 
 .spco-steps-big-hdr {
@@ -140,8 +138,8 @@
 }
 
 .small-12 #spco-steps-display-dv {
-  border-top: 1px solid rgba(0,0,0,.2);
-  border-bottom: 1px solid rgba(0,0,0,.2);
+  border-top: 1px solid rgba(0, 0, 0, .2);
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
 }
 
 .small-12 .spco-step-display-dv {
@@ -164,9 +162,9 @@
 }
 
 
-.spco-ticket-details>thead>tr>:nth-child(3), .spco-ticket-details>thead>tr>:nth-child(4),
-.spco-ticket-details>tbody>tr>:nth-child(3), .spco-ticket-details>tbody>tr>:nth-child(4) {
- display: none;
+.spco-ticket-details > thead > tr > :nth-child(3), .spco-ticket-details > thead > tr > :nth-child(4),
+.spco-ticket-details > tbody > tr > :nth-child(3), .spco-ticket-details > tbody > tr > :nth-child(4) {
+  display: none;
 }
 
 .spco-ticket-details {
@@ -174,11 +172,11 @@
 }
 
 .small-12 .spco-attendee-lgnd {
-  color: rgba(0,0,0,.5);
+  color: rgba(0, 0, 0, .5);
 }
 
 .small-12 .ee-reg-form-attendee-dv {
-  border: 2px solid rgba(0,0,0,.2);
+  border: 2px solid rgba(0, 0, 0, .2);
 }
 
 // Form Edits
@@ -197,18 +195,15 @@
   font-family: $main-font;
   box-sizing: border-box;
   appearance: none;
-  background-color: $orange;
+  background-color: $orange !important;
   cursor: pointer;
-
   background: $orange;
   border: 0;
   color: #fff;
   border-radius: 140px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   background: {
-    image:
-            linear-gradient(45deg, $blue 50%,
-                    transparent 50%);
+    image: linear-gradient(45deg, $blue 50%, transparent 50%);
     position: 100%;
     size: 400%;
   }
@@ -216,10 +211,9 @@
 
   &:hover {
     background-position: 0;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   }
 }
-
 
 
 // Confirmation Page

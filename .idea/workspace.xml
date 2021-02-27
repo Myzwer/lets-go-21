@@ -19,13 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":rocket: Added a section to the bottom of the events page to allow users to pick the &quot;choose your own adventure&quot; option if the spot they wanted is full.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Realized the last commit was forcing all buttons to be underlined, fixed that.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/event.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/event.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_plugin-override.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_plugin-override.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,14 +98,7 @@
       <workItem from="1606754988007" duration="1324000" />
       <workItem from="1613055663840" duration="1146000" />
       <workItem from="1613505798213" duration="2036000" />
-      <workItem from="1613572599056" duration="141312000" />
-    </task>
-    <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
-      <created>1600362248990</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1600362248990</updated>
+      <workItem from="1613572599056" duration="141830000" />
     </task>
     <task id="LOCAL-00002" summary="Contact.php was living in the wrong spot, so I moved it to its correct folder.">
       <created>1600362530674</created>
@@ -447,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614415903305</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary=":hammer: Realized the last commit was forcing all buttons to be underlined, fixed that.">
+      <created>1614417148602</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1614417148603</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,7 +462,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":construction: Added ACF to the whole page except for the lower cards, though I did verify they would work for the first one. Aside from adding those ACF cards (and any tweaks the come with that), this page is finished." />
     <MESSAGE value=":Rocket: Completed the base design for the header of the events page." />
     <MESSAGE value=":rocket: Completed the design of the events page, will need to convert it to ACF." />
     <MESSAGE value=":art: Added relevant sass to style the second half of the events page after user selects their time." />
@@ -491,7 +486,8 @@
     <MESSAGE value=":hammer: Updated gulp to use https." />
     <MESSAGE value=":rocket: Updated both the privacy policy and 404 page." />
     <MESSAGE value=":rocket: Added a section to the bottom of the events page to allow users to pick the &quot;choose your own adventure&quot; option if the spot they wanted is full." />
-    <option name="LAST_COMMIT_MESSAGE" value=":rocket: Added a section to the bottom of the events page to allow users to pick the &quot;choose your own adventure&quot; option if the spot they wanted is full." />
+    <MESSAGE value=":hammer: Realized the last commit was forcing all buttons to be underlined, fixed that." />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Realized the last commit was forcing all buttons to be underlined, fixed that." />
   </component>
   <component name="WindowStateProjectService">
     <state x="707" y="483" key="NewPhpFileDialog" timestamp="1614195109468">

@@ -19,8 +19,9 @@ get_header(); ?>
             <div class="grid-x grid-padding-x ">
                 <div class="small-12 cell">
                     <div class="margin-bottom">
-                        <a href="#"></a>
-                        <button class="btn btn-v1 register-button"><< Back to Homepage</button>
+                        <a href="/frontpage">
+                            <button class="btn btn-v1 register-button"><< Back to Homepage</button>
+                        </a>
                     </div>
                 </div>
 
@@ -35,7 +36,7 @@ get_header(); ?>
     <div class="full-width">
         <div class="grid-x ">
             <div class="small-12 cell">
-                <img class="waves" src="http://lets-go.local/wp-content/uploads/2021/02/Vector-Top-Small.png" alt="">
+                <img class="waves" src="<?php the_field('waves'); ?>" alt="Wavy design">
             </div>
         </div>
     </div>

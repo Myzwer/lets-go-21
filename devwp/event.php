@@ -114,7 +114,7 @@ get_header(); ?>
             </div>
 
             <div class="small-12 cell margin-bottom">
-                <h5 class = "dark-color-invert center">Spot you wanted full? <a href="https://foothillschurch.churchcenter.com/people/forms/222318">Choose your own adventure instead!</a></h5>
+                <h5 class = "dark-color-invert center">Spot you wanted full? <a class = "underline" href="https://foothillschurch.churchcenter.com/people/forms/222318">Choose your own adventure instead!</a></h5>
             </div>
         </div>
     </div>

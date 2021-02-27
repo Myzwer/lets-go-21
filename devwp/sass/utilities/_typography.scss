@@ -138,11 +138,13 @@ p {
 //*********************************************
 
 a {
-  color: $primary;
+  color: $background;
+  text-decoration: underline;
 }
 
 a:hover {
   color: $primary;
+
 }
 
 a:active {
@@ -150,7 +152,7 @@ a:active {
 }
 
 a:visited {
-  color: $primary;
+  color: $background;
 }
 
 

@@ -970,7 +970,6 @@ get_header(); ?>
             </div><!-- Card Container End -->
         </div><!-- Card Container End -->
 
-
     </div>
 
 

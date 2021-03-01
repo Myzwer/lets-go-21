@@ -970,7 +970,7 @@ get_header(); ?>
             </div><!-- Card Container End -->
         </div><!-- Card Container End -->
 
-    </div>
+    </div><!-- End Blue Background -->
 
 
 <?php get_footer();

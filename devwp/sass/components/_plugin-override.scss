@@ -1,0 +1,221 @@
+/**
+ * Plugin Override
+ * =================================
+ * - Event Espresso
+ *
+ *
+ *
+ *
+ *
+ */
+
+//This is dedicated to overriding the code that the event espresso generates.
+// The .small-12 is generated from my PHP, not their code, but it is used to achieve higher specificity without using important
+
+
+//change button color for select date
+.checkbox-dropdown-selector-wrap-dv button {
+  background-color: $blue;
+  border-radius: 10px;
+}
+
+.checkbox-dropdown-selector-wrap-dv button:hover {
+  background-color: $orange;
+}
+
+.datetime_selector-dv {
+  display: none;
+}
+
+
+//change box color to be blue
+.tkt-slctr-tbl thead, .tkt-slctr-tbl tbody {
+  background-color: $blue;
+  color: $white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border: 0;
+}
+
+
+//hide extra details section
+.display-tckt-slctr-tkt-details {
+  display: none;
+}
+
+.ee-ticket-selector-ticket-price-th {
+  display: none;
+}
+
+.tckt-slctr-tbl-td-price {
+  display: none;
+}
+
+.ticket-selector-tbl-qty-slct {
+  cursor: pointer;
+}
+
+.sold-out {
+  color: $white !important;
+  cursor: not-allowed;
+}
+
+.tkt-slctr-tbl .ticket-sales-sold-out {
+  color: white;
+  opacity: .3;
+  cursor: not-allowed;
+}
+
+
+//button edits
+.ticket-selector-submit-btn-wrap input {
+
+  font-family: $main-font;
+  box-sizing: border-box;
+  appearance: none;
+  background-color: $orange;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1.2rem;
+  line-height: 1;
+  margin: 20px;
+  padding: .6em 2em;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 2px;
+  background: $orange;
+  border: 0;
+  color: #fff;
+  border-radius: 140px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background: {
+    image: linear-gradient(45deg, $blue 50%,
+            transparent 50%);
+    position: 100%;
+    size: 400%;
+  }
+  transition: 300ms ease-in-out;
+
+  &:hover {
+    background-position: 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+
+  &:focus {
+    outline: none !important;
+  }
+
+  &:active {
+    border: none;
+  }
+}
+
+.small-12 .spco-whats-next-buttons {
+  padding-top: 0;
+}
+
+
+// List Items on Bottom of page
+.event-datetimes {
+  display: none;
+  background-color: $blue;
+  color: $white;
+  border-radius: 10px;
+}
+
+
+.ee-event-datetimes-li {
+  list-style-type: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+// Second Page
+
+.spco-steps-big-hdr {
+  display: none;
+}
+
+.small-12 #spco-steps-display-dv {
+  border-top: 1px solid rgba(0, 0, 0, .2);
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.small-12 .spco-step-display-dv {
+  width: 100%;
+}
+
+.small-12 .spco-steps-pg {
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+
+.spco-ticket-details thead, .spco-ticket-details tbody {
+  background-color: $blue;
+  color: $white;
+}
+
+.spco-ticket-details thead {
+  font-size: 1.3em;
+}
+
+
+.spco-ticket-details > thead > tr > :nth-child(3), .spco-ticket-details > thead > tr > :nth-child(4),
+.spco-ticket-details > tbody > tr > :nth-child(3), .spco-ticket-details > tbody > tr > :nth-child(4) {
+  display: none;
+}
+
+.spco-ticket-details {
+  margin-bottom: 50px;
+}
+
+.small-12 .spco-attendee-lgnd {
+  color: rgba(0, 0, 0, .5);
+}
+
+.small-12 .ee-reg-form-attendee-dv {
+  border: 2px solid rgba(0, 0, 0, .2);
+}
+
+// Form Edits
+
+@media screen and (min-width: 40em) {
+  .small-12 .ee-reg-qstn {
+    width: 50%;
+  }
+}
+
+.small-12 #spco-copy-attendee-dv {
+  display: none;
+}
+
+.spco-whats-next-buttons input {
+  font-family: $main-font;
+  box-sizing: border-box;
+  appearance: none;
+  background-color: $orange !important;
+  cursor: pointer;
+  background: $orange;
+  border: 0;
+  color: #fff;
+  border-radius: 140px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background: {
+    image: linear-gradient(45deg, $blue 50%, transparent 50%);
+    position: 100%;
+    size: 400%;
+  }
+  transition: 300ms ease-in-out;
+
+  &:hover {
+    background-position: 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+}
+
+// Confirmation Page
+.small-12 .ee-attention {
+  display: none;
+}

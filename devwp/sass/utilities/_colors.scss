@@ -30,3 +30,9 @@
 .main-header {
   color: $primary;
 }
+
+.privacy-policy h2, .privacy-policy p, .privacy-policy h3 {
+  color: $background;
+  padding-left: 0;
+  padding-right: 0;
+}

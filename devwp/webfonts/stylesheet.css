@@ -86,3 +86,77 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Druk Text Wide';
+    src: url('../../webfonts/DrukTextWide-Bold.woff2') format('woff2'),
+    url('../../webfonts/DrukTextWide-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide';
+    src: url('../../webfonts/DrukTextWide-BoldItalic.woff2') format('woff2'),
+    url('../../webfonts/DrukTextWide-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide';
+    src: url('../../webfonts/DrukTextWide-Heavy.woff2') format('woff2'),
+    url('../../webfonts/DrukTextWide-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide Super';
+    src: url('../../webfonts/DrukTextWide-SuperItalic.woff2') format('woff2'),
+    url('../../webfonts/DrukTextWide-SuperItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide';
+    src: url('../../webfonts/DrukTextWide-HeavyItalic.woff2') format('woff2'),
+    url('../../webfonts/DrukTextWide-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide Super';
+    src: url('../../webfonts/DrukTextWide-Super.woff2') format('woff2'),
+    url('../../webfonts/DrukTextWide-Super.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide';
+    src: url('../../webfonts/DrukTextWide-MediumItalic.woff2') format('woff2'),
+    url('../../webfonts/DrukTextWide-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide';
+    src: url('../../webfonts/DrukTextWide-Medium.woff2') format('woff2'),
+    url('../../webfonts/DrukTextWide-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+

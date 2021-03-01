@@ -93,7 +93,7 @@ function javascript() {
 function watch() {
     browserSync.init({
         open:'external',
-        proxy: 'lets-go.local', //switch this to whatever local generates
+        proxy: 'https://lets-go.local', //switch this to whatever local generates
         port: 3000
     });
 

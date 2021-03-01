@@ -44,16 +44,17 @@ h1 {
   text-transform: uppercase;
   font-size: $xlarge;
   color: $background;
+  letter-spacing: 2px;
 }
 
 h2 {
   font-size: $large;
-  text-transform: uppercase;
 }
 
 h3 {
   font-size: $medium;
   text-transform: uppercase;
+  font-weight: 600;
 }
 
 h4 {
@@ -71,6 +72,15 @@ h5 {
   font-weight: 800;
 }
 
+.xl-title {
+  font-size: 2em;
+}
+
+@media screen and (min-width: 40em) {
+  .xl-title {
+    font-size: 4em;
+  }
+}
 
 
 //*********************************************
@@ -98,6 +108,12 @@ h5 {
   }
 }
 
+@media screen and (max-width: 39.9375em) {
+.small-font-mobile {
+  font-size: 1.8em;
+  }
+}
+
 
 //*********************************************
 //*************** PARAGRAPHS ******************
@@ -105,9 +121,9 @@ h5 {
 p {
   font-family: $main-font;
   font-size: $normal;
-  color: black;
+  color: $primary;
   padding: 20px;
-  line-height: 1.6;
+  line-height: 1.4;
   padding-bottom: 0;
 }
 
@@ -122,11 +138,12 @@ p {
 //*********************************************
 
 a {
-  color: $primary;
+  color: $background;
 }
 
 a:hover {
   color: $primary;
+
 }
 
 a:active {
@@ -134,7 +151,7 @@ a:active {
 }
 
 a:visited {
-  color: $primary;
+  color: $background;
 }
 
 
@@ -156,6 +173,11 @@ a:visited {
 .italics {
   font-style: italic;
 }
+
+.underline {
+  text-decoration: underline;
+}
+
 
 
 

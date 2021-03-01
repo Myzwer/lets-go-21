@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Updated the default font to be gotham instead of harbor, as this is used on more projects than harbour is. Also made a slight change to the class names of text-color flips to be more consistant with other projects.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment=":hammer: Tried to add a feature, it didn't work as planned, so I cut it and ended up cutting out some extra unnecessary code.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-gulp/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_cards.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,35 +97,10 @@
       <workItem from="1600359805432" duration="20364000" />
       <workItem from="1600713969850" duration="164000" />
       <workItem from="1606754988007" duration="1324000" />
-      <workItem from="1613055663840" duration="506000" />
-    </task>
-    <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
-      <created>1600362248990</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1600362248990</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Contact.php was living in the wrong spot, so I moved it to its correct folder.">
-      <created>1600362530674</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1600362530674</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Contact.php was living in the wrong spot, so I moved it to its correct folder.">
-      <created>1600363493155</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1600363493155</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Completely reworked my scss file structure. Moved most of my files into a few folders and broke them apart into smaller files. This change was inpsired from changes I was making to nearly every project I worked on. The current structure had too many classes that could fit into one or more files, so this helps differentiate which classes should be in which files.">
-      <created>1600402473832</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1600402473832</updated>
+      <workItem from="1613055663840" duration="1146000" />
+      <workItem from="1613505798213" duration="2036000" />
+      <workItem from="1613572599056" duration="143188000" />
+      <workItem from="1614467965042" duration="6219000" />
     </task>
     <task id="LOCAL-00005" summary="Updated the default font to be gotham instead of harbor, as this is used on more projects than harbour is. Also made a slight change to the class names of text-color flips to be more consistant with other projects.">
       <created>1606760461539</created>
@@ -133,7 +109,343 @@
       <option name="project" value="LOCAL" />
       <updated>1606760461539</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=":hammer: Updated the header to not have any code since it isn't necessary for a 1 page website.">
+      <created>1613508975492</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613508975492</updated>
+    </task>
+    <task id="LOCAL-00007" summary=":hammer: Made sure the events page would work the way I was hoping it would by pulling posts.">
+      <created>1613573184894</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1613573184894</updated>
+    </task>
+    <task id="LOCAL-00008" summary=":scroll: Updated the theme name across all files.">
+      <created>1613573851675</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1613573851675</updated>
+    </task>
+    <task id="LOCAL-00009" summary=":art: Updated the scss color palette variables.">
+      <created>1613575119879</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1613575119879</updated>
+    </task>
+    <task id="LOCAL-00010" summary=":art: Added Druk Text Wide as the header font and switched gotham to the body font. Also removed raleway font.">
+      <created>1613575832139</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1613575832139</updated>
+    </task>
+    <task id="LOCAL-00011" summary=":art: Updated the base typography styles.">
+      <created>1613576343878</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1613576343878</updated>
+    </task>
+    <task id="LOCAL-00012" summary=":art: Updated the button styles across the site.">
+      <created>1613577777989</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1613577777989</updated>
+    </task>
+    <task id="LOCAL-00013" summary=":rocket: Finished the header image, thought i suspect the image will be replaced or tweaked for negative space and color reasons.">
+      <created>1613585156150</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1613585156150</updated>
+    </task>
+    <task id="LOCAL-00014" summary=":rocket: Finished the rough layout for the why / about section on the homepage.">
+      <created>1613586871433</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1613586871433</updated>
+    </task>
+    <task id="LOCAL-00015" summary=":rocket: Updated the header and middle sections on the frontpage to work better across all device sizes.">
+      <created>1613628003019</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1613628003019</updated>
+    </task>
+    <task id="LOCAL-00016" summary=":hammer: Fixed the font size on the homepage serve section to not break if device width is too small.">
+      <created>1613665587106</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1613665587106</updated>
+    </task>
+    <task id="LOCAL-00017" summary=":art: Made the Notice banner in the serve section on the homepage look prettier via some spacing and a background.">
+      <created>1613666267085</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1613666267085</updated>
+    </task>
+    <task id="LOCAL-00018" summary=":rocket: Got the homepage card set up, though I have plans in the future to make it more dynamic than it currently is.">
+      <created>1613673662825</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1613673662825</updated>
+    </task>
+    <task id="LOCAL-00019" summary=":rocket: Changed the footer to what it will be. Since the site is primarily 1 page, a large footer is not necessary.">
+      <created>1613674097635</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1613674097635</updated>
+    </task>
+    <task id="LOCAL-00020" summary=":rocket: Updated the homepage to have the correct text logo, as well as updated the icons in the about section on the homepage.">
+      <created>1613679490351</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1613679490351</updated>
+    </task>
+    <task id="LOCAL-00021" summary=":hammer: Adjusted section spacing on the homepage.">
+      <created>1613680894142</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1613680894142</updated>
+    </task>
+    <task id="LOCAL-00022" summary=":construction: Worked on the cards section on the frontpage, but its very likely that I will update the section later.">
+      <created>1613770599150</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1613770599150</updated>
+    </task>
+    <task id="LOCAL-00023" summary=":construction: Reworked the cards for the serving section on the homepage. The basic layout is now done, but there will need to be a bunch of edits made to get the content to look right still.">
+      <created>1613804033989</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1613804033989</updated>
+    </task>
+    <task id="LOCAL-00024" summary=":rocket: Updated the entire cards section on the homepage as well as all the scss. There will be bug testing requried, but converting it to ACF sooner rather than later will be a huge help in the long run. TLDR: Cards are done until ACF is added.">
+      <created>1613965312488</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1613965312488</updated>
+    </task>
+    <task id="LOCAL-00025" summary=":construction: Added ACF to the whole page except for the lower cards, though I did verify they would work for the first one. Aside from adding those ACF cards (and any tweaks the come with that), this page is finished.">
+      <created>1613974861914</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1613974861914</updated>
+    </task>
+    <task id="LOCAL-00026" summary=":Rocket: Completed the base design for the header of the events page.">
+      <created>1614028414118</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1614028414118</updated>
+    </task>
+    <task id="LOCAL-00027" summary=":rocket: Completed the design of the events page, will need to convert it to ACF.">
+      <created>1614060898194</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1614060898194</updated>
+    </task>
+    <task id="LOCAL-00028" summary=":art: Added relevant sass to style the second half of the events page after user selects their time.">
+      <created>1614098254032</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1614098254032</updated>
+    </task>
+    <task id="LOCAL-00029" summary=":heavy-plus-sign: Added confirmation page that users will hit after they complete their registration.">
+      <created>1614099554364</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1614099554364</updated>
+    </task>
+    <task id="LOCAL-00030" summary=":rocket: Finished the style and layout of the checkout confirmation page.">
+      <created>1614109512213</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1614109512213</updated>
+    </task>
+    <task id="LOCAL-00031" summary=":construction: Moved the sign up section to the top of the events page for better UX.">
+      <created>1614110812278</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1614110812278</updated>
+    </task>
+    <task id="LOCAL-00032" summary=":rocket: Added the ACF required to begin testing the dev team's side of things. The images are still static, and some of the text is as well.">
+      <created>1614148312622</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1614148312622</updated>
+    </task>
+    <task id="LOCAL-00033" summary=":hammer: Added a function that decreased the ticket reserve timer from 1 hour to 10 minutes.">
+      <created>1614180449473</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1614180449473</updated>
+    </task>
+    <task id="LOCAL-00034" summary=":heavy-plus-sign: Added the privacy policy page.">
+      <created>1614196664155</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1614196664155</updated>
+    </task>
+    <task id="LOCAL-00035" summary=":hammer: Updated a few minor things on the frontpage, specifically switching out the background check icon and text for a weather related one.">
+      <created>1614199890063</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1614199890063</updated>
+    </task>
+    <task id="LOCAL-00036" summary=":shirt: Removed debug statements from Events page.">
+      <created>1614208961318</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1614208961318</updated>
+    </task>
+    <task id="LOCAL-00037" summary=":construction: Updated all the cards to use ACF, as well as made a few style changes to the cards themselves.">
+      <created>1614231300962</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1614231300962</updated>
+    </task>
+    <task id="LOCAL-00038" summary=":Hammer: Had to adjust all of my breakpoints since the new content broke free of its containers on the tablet range. Mobile was untouched. Desktop got a width lock because it was way too thicc. I also increased the height of the boxes for a specific range on desktop because the content was spilling out.">
+      <created>1614233559622</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1614233559622</updated>
+    </task>
+    <task id="LOCAL-00039" summary=":rocket: Fixed the cards on the homepage! Works across all devices now, looks great! Images might cause issues once they get added in, but seemingly the page is functional across all devices.">
+      <created>1614237026923</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1614237026923</updated>
+    </task>
+    <task id="LOCAL-00040" summary=":hammer: Made a handful of edits to help resize the images, as some of them were aggressively breaking out of their containers.">
+      <created>1614243876575</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1614243876575</updated>
+    </task>
+    <task id="LOCAL-00041" summary=":hammer: Various homepage fixes, added a new card, fixed the way the images behave on mobile, a few other minor edits.">
+      <created>1614334761230</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1614334761231</updated>
+    </task>
+    <task id="LOCAL-00042" summary=":Rocket: Added a homepage link to the footer as well as made sure the privacy policy link worked.">
+      <created>1614338471805</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1614338471805</updated>
+    </task>
+    <task id="LOCAL-00043" summary=":hammer: Fixed images not loading in on the events page template, as well as moved where content loads in for better UX.">
+      <created>1614341927491</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1614341927491</updated>
+    </task>
+    <task id="LOCAL-00044" summary=":hammer: Fixed the button on the confirmation page that didn't work.">
+      <created>1614342474446</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1614342474446</updated>
+    </task>
+    <task id="LOCAL-00045" summary=":hammer: Fixed an image not loading in on confirmation page.">
+      <created>1614342724506</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1614342724506</updated>
+    </task>
+    <task id="LOCAL-00046" summary=":hammer: Lessened the box shadow on the events page sign up box.">
+      <created>1614344621082</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1614344621082</updated>
+    </task>
+    <task id="LOCAL-00047" summary=":hammer: Updated gulp to use https.">
+      <created>1614406794958</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1614406794958</updated>
+    </task>
+    <task id="LOCAL-00048" summary=":rocket: Updated both the privacy policy and 404 page.">
+      <created>1614413123800</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1614413123800</updated>
+    </task>
+    <task id="LOCAL-00049" summary=":rocket: Added a section to the bottom of the events page to allow users to pick the &quot;choose your own adventure&quot; option if the spot they wanted is full.">
+      <created>1614415903305</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1614415903305</updated>
+    </task>
+    <task id="LOCAL-00050" summary=":hammer: Realized the last commit was forcing all buttons to be underlined, fixed that.">
+      <created>1614417148602</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1614417148603</updated>
+    </task>
+    <task id="LOCAL-00051" summary=":hammer: Fixed 2 issues where the buttons generated by the plugins were showing outlines as well as changing background colors to the wrong color.">
+      <created>1614417802611</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1614417802611</updated>
+    </task>
+    <task id="LOCAL-00052" summary=":hammer: Fixed 2 issues where the buttons generated by the plugins were showing outlines as well as changing background colors to the wrong color.">
+      <created>1614468181503</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1614468181503</updated>
+    </task>
+    <task id="LOCAL-00053" summary=":hammer: Tried to add a feature, it didn't work as planned, so I cut it and ended up cutting out some extra unnecessary code.">
+      <created>1614477482668</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1614477482668</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,16 +464,38 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated a lot of the SASS to include some classes that I use in a lot of designs." />
-    <MESSAGE value="Contact.php was living in the wrong spot, so I moved it to its correct folder." />
-    <MESSAGE value="Completely reworked my scss file structure. Moved most of my files into a few folders and broke them apart into smaller files. This change was inpsired from changes I was making to nearly every project I worked on. The current structure had too many classes that could fit into one or more files, so this helps differentiate which classes should be in which files." />
-    <MESSAGE value="Updated the default font to be gotham instead of harbor, as this is used on more projects than harbour is. Also made a slight change to the class names of text-color flips to be more consistant with other projects." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the default font to be gotham instead of harbor, as this is used on more projects than harbour is. Also made a slight change to the class names of text-color flips to be more consistant with other projects." />
+    <MESSAGE value=":art: Added relevant sass to style the second half of the events page after user selects their time." />
+    <MESSAGE value=":heavy-plus-sign: Added confirmation page that users will hit after they complete their registration." />
+    <MESSAGE value=":rocket: Finished the style and layout of the checkout confirmation page." />
+    <MESSAGE value=":construction: Moved the sign up section to the top of the events page for better UX." />
+    <MESSAGE value=":rocket: Added the ACF required to begin testing the dev team's side of things. The images are still static, and some of the text is as well." />
+    <MESSAGE value=":hammer: Added a function that decreased the ticket reserve timer from 1 hour to 10 minutes." />
+    <MESSAGE value=":heavy-plus-sign: Added the privacy policy page." />
+    <MESSAGE value=":hammer: Updated a few minor things on the frontpage, specifically switching out the background check icon and text for a weather related one." />
+    <MESSAGE value=":shirt: Removed debug statements from Events page." />
+    <MESSAGE value=":construction: Updated all the cards to use ACF, as well as made a few style changes to the cards themselves." />
+    <MESSAGE value=":Hammer: Had to adjust all of my breakpoints since the new content broke free of its containers on the tablet range. Mobile was untouched. Desktop got a width lock because it was way too thicc. I also increased the height of the boxes for a specific range on desktop because the content was spilling out." />
+    <MESSAGE value=":rocket: Fixed the cards on the homepage! Works across all devices now, looks great! Images might cause issues once they get added in, but seemingly the page is functional across all devices." />
+    <MESSAGE value=":hammer: Made a handful of edits to help resize the images, as some of them were aggressively breaking out of their containers." />
+    <MESSAGE value=":hammer: Various homepage fixes, added a new card, fixed the way the images behave on mobile, a few other minor edits." />
+    <MESSAGE value=":Rocket: Added a homepage link to the footer as well as made sure the privacy policy link worked." />
+    <MESSAGE value=":hammer: Fixed images not loading in on the events page template, as well as moved where content loads in for better UX." />
+    <MESSAGE value=":hammer: Fixed the button on the confirmation page that didn't work." />
+    <MESSAGE value=":hammer: Fixed an image not loading in on confirmation page." />
+    <MESSAGE value=":hammer: Lessened the box shadow on the events page sign up box." />
+    <MESSAGE value=":hammer: Updated gulp to use https." />
+    <MESSAGE value=":rocket: Updated both the privacy policy and 404 page." />
+    <MESSAGE value=":rocket: Added a section to the bottom of the events page to allow users to pick the &quot;choose your own adventure&quot; option if the spot they wanted is full." />
+    <MESSAGE value=":hammer: Realized the last commit was forcing all buttons to be underlined, fixed that." />
+    <MESSAGE value=":hammer: Fixed 2 issues where the buttons generated by the plugins were showing outlines as well as changing background colors to the wrong color." />
+    <MESSAGE value=":hammer: Tried to add a feature, it didn't work as planned, so I cut it and ended up cutting out some extra unnecessary code." />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Tried to add a feature, it didn't work as planned, so I cut it and ended up cutting out some extra unnecessary code." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="626" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600370564002">
+    <state x="707" y="483" key="NewPhpFileDialog" timestamp="1614195109468">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="626" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1600370564002" />
+    <state x="707" y="483" key="NewPhpFileDialog/-1920.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1613507209012" />
+    <state x="707" y="483" key="NewPhpFileDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1614195109468" />
   </component>
 </project>

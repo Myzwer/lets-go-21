@@ -1,0 +1,190 @@
+/**
+ * Cards
+ * =================================
+ * - Homepage Card
+ *
+ *
+ *
+ *
+ *
+ */
+
+
+// Makes sure the margin pushes the cards in so they are full width, but with padding
+.card-outer {
+  margin: 0 3%;
+}
+
+@media screen and (min-width: 84em) {
+  .card-outer {
+    max-width: 84em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+// Gradient Background Colors
+
+//Rounded Corner Situation
+.gradient-corners {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.content-corners {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+@media screen and (min-width: 40em) {
+  .gradient-corners {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .content-corners {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+  }
+}
+
+.top-corners {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.bottom-corners {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+//It is with great lament I type this code, but runway is short and I have no time to do this properly.
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .corner-override {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .corner-override-2 {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+  }
+}
+
+
+// Card Content
+.card-contents {
+  background-color: $background;
+
+  h2 {
+    font-size: 1.3em;
+  }
+}
+
+
+
+// Desktop only, as mobile will fill in where needed
+@media screen and (max-width: 39.9375em) {
+  .card-center {
+    width: 80%;
+    margin: 20px auto 20px auto;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .card-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  .card-content-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .tall-image {
+    max-height: 450px;
+    max-width: 230px;
+  }
+}
+
+// Height Locks for Cards, desktop only. Mobile will size as needed.
+@media screen and (min-width: 50em) {
+  .lock-tall {
+    height: 850px;
+  }
+
+  .lock-tall-half {
+    height: 440px;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .lock-tall {
+    height: 1050px;
+  }
+
+  .lock-tall-half {
+    height: 540px;
+  }
+}
+
+@media screen and (min-width: 81em) {
+  .lock-tall {
+    height: 850px;
+  }
+
+  .lock-tall-half {
+    height: 440px;
+  }
+}
+
+
+//margin fixes
+.card-margin-bottom {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 40em) {
+  .card-margin-bottom-desktop {
+    margin-bottom: 30px;
+  }
+}
+
+
+
+
+// Icons
+.icon-box {
+
+}
+
+.off {
+  opacity: .1;
+}
+
+
+//buttons
+.card-contents .register-button {
+  text-align: center;
+  margin: 30px auto 30px auto;
+}

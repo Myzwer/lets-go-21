@@ -1,13 +1,13 @@
 <?php
 /**
- * The template for displaying the footer of the Yestau Theme
+ * The template for displaying the footer of the Let's Go Theme
  *
  * Contains the opening of the footer of all pages and all subsequent content.
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
  * @package WordPress
- * @subpackage Yestau
+ * @subpackage Let's Go
  * @since 1.0.0
  */
 
@@ -19,18 +19,8 @@
 
 <!-- FOOTER START -->
 <div class="footer">
-    <div class="contain">
-        <div class="col">
-            <?php wp_nav_menu( array( 'theme_location' => 'footer-column-1' ) ); ?>
-        </div>
-        <div class="col">
-            <?php wp_nav_menu( array( 'theme_location' => 'footer-column-2' ) ); ?>
-        </div>
-        <div class="col">
-            <?php wp_nav_menu( array( 'theme_location' => 'footer-column-3' ) ); ?>
-        </div>
-        <div class="clearfix"></div>
-    </div>
+    <a href="/frontpage">Home</a> | <a href="/privacy-policy">Privacy Policy</a>
+    <p>© 2021 Foothills Church</p>
 </div>
 <!-- END OF FOOTER -->
 

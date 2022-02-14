@@ -20,7 +20,7 @@
 <!-- FOOTER START -->
 <div class="footer">
     <a href="/frontpage">Home</a> | <a href="/privacy-policy">Privacy Policy</a>
-    <p>© 2021 Foothills Church</p>
+    <p>© <?php echo date("Y"); ?> Foothills Church</p>
 </div>
 <!-- END OF FOOTER -->
 

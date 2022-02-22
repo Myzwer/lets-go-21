@@ -92,6 +92,10 @@
   margin-top: -8px;
 }
 
+.mt-80 {
+  margin-top: 80px;
+}
+
 // This is used on the homepage to set the middle glyph down on desktop only
 @media screen and (min-width: 40em) {
   .middle-glyph-push {

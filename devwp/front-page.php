@@ -40,27 +40,29 @@ get_header(); ?>
     <div class="full-width orange-background">
         <div class="grid-x margin-bottom">
             <div class="small-12 center cell">
+                <div class="drop-effect">
                 <h2>What is Let's Go?</h2>
+                </div>
             </div>
         </div>
         <div class="grid-container">
             <div class="grid-x grid-margin-x padding-bottom">
                 <div class="small-12 medium-4 cell">
-                    <h3 class="dark-color-invert">What is Let's Go?</h3>
+                    <h3 class="dark-color-invert">Look Up</h3>
                     <p class="no-spacing dark-color-invert">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Culpa ex illum ipsam ipsum labore, nihil nisi numquam officiis quaerat, rerum sequi soluta sunt?
                         Aliquam at dolore harum ut, veniam vitae.</p>
                 </div>
 
                 <div class="small-12 medium-4 cell">
-                    <h3 class="dark-color-invert">What is Let's Go?</h3>
+                    <h3 class="dark-color-invert">Sign Up</h3>
                     <p class="no-spacing dark-color-invert">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Culpa ex illum ipsam ipsum labore, nihil nisi numquam officiis quaerat, rerum sequi soluta sunt?
                         Aliquam at dolore harum ut, veniam vitae.</p>
                 </div>
 
                 <div class="small-12 medium-4 cell">
-                    <h3 class="dark-color-invert">What is Let's Go?</h3>
+                    <h3 class="dark-color-invert">Show Up</h3>
                     <p class="no-spacing dark-color-invert">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Culpa ex illum ipsam ipsum labore, nihil nisi numquam officiis quaerat, rerum sequi soluta sunt?
                         Aliquam at dolore harum ut, veniam vitae.</p>
@@ -69,10 +71,10 @@ get_header(); ?>
         </div>
     </div>
 
-    <div class="full-width blue-background">
-        <img src="https://lets-go.local/wp-content/uploads/2022/02/Vector-3.png" alt="">
+    <div class="full-width orange-background">
+        <img src="https://lets-go.local/wp-content/uploads/2022/02/About-Bottom-Wave.png" alt="">
     </div>
-    <div class="full-width main-background">
+    <div class="full-width blue-background">
         <div class="grid-x">
             <div class="small-12 center cell">
                 <h3>Serving Opportunities</h3>

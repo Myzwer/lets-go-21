@@ -46,23 +46,32 @@ get_header(); ?>
             </div>
         </div>
         <div class="grid-container">
-            <div class="grid-x grid-margin-x padding-bottom">
-                <div class="small-12 medium-4 cell">
+            <div class="grid-x grid-margin-x">
+                <div class="small-12 medium-4 cell padding-bottom">
+                    <div class="center">
+                        <img class = "w-half padding-bottom" src="https://lets-go.local/wp-content/uploads/2022/02/Icon-1.png" alt="">
+                    </div>
+                        <h3 class="dark-color-invert">Look Up</h3>
+                    <p class="no-spacing dark-color-invert">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Culpa ex illum ipsam ipsum labore, nihil nisi numquam officiis quaerat, rerum sequi soluta sunt?
+                        Aliquam at dolore harum ut, veniam vitae.</p>
+                </div>
+
+                <div class="small-12 medium-4 cell middle-icon-push padding-bottom">
+                    <div class="center">
+                        <img class = "w-half padding-bottom" src="https://lets-go.local/wp-content/uploads/2022/02/Icon-1.png" alt="">
+                    </div>
                     <h3 class="dark-color-invert">Look Up</h3>
                     <p class="no-spacing dark-color-invert">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Culpa ex illum ipsam ipsum labore, nihil nisi numquam officiis quaerat, rerum sequi soluta sunt?
                         Aliquam at dolore harum ut, veniam vitae.</p>
                 </div>
 
-                <div class="small-12 medium-4 cell">
-                    <h3 class="dark-color-invert">Sign Up</h3>
-                    <p class="no-spacing dark-color-invert">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Culpa ex illum ipsam ipsum labore, nihil nisi numquam officiis quaerat, rerum sequi soluta sunt?
-                        Aliquam at dolore harum ut, veniam vitae.</p>
-                </div>
-
-                <div class="small-12 medium-4 cell">
-                    <h3 class="dark-color-invert">Show Up</h3>
+                <div class="small-12 medium-4 cell padding-bottom">
+                    <div class="center">
+                        <img class = "w-half padding-bottom" src="https://lets-go.local/wp-content/uploads/2022/02/Icon-1.png" alt="">
+                    </div>
+                    <h3 class="dark-color-invert">Look Up</h3>
                     <p class="no-spacing dark-color-invert">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Culpa ex illum ipsam ipsum labore, nihil nisi numquam officiis quaerat, rerum sequi soluta sunt?
                         Aliquam at dolore harum ut, veniam vitae.</p>

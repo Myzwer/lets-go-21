@@ -93,7 +93,7 @@ get_header(); ?>
                 <div class="drop-effect add-padding">
                     <h2>Serving Opportunities</h2>
                 </div>
-                <div class="orange-background add-padding rounded-corners box-shadow">
+                <div class="orange-background add-padding rounded-corners box-shadow margin-bottom">
                     <h3 class="dark-color-invert center uppercase">Please Note</h3>
                     <p class="dark-color-invert">Please do not bring any extra people to serve who have not registered
                         for the event. Although it sounds helpful, our serve organizations have specified the number of
@@ -102,57 +102,605 @@ get_header(); ?>
             </div>
         </div>
 
-        <!-- START CARDS -->
+
+    <!-- Start of Cards-->
+    <div class="grid-x card-outer"><!-- Card Container Start-->
+        <div class="small-12 cell"><!-- Card Container Start, basically leave this alone -->
+            <div class="grid-x grid-margin-x"><!-- Cards Outer -->
 
 
-        <div class="grid-x card-outer center add-padding"><!-- Outer -->
-            <div class="small-12 center cell"><!-- Outer Cell -->
+                <!-- ************ ROW 1 ************* -->
+                <?php if (have_rows('event_1')): ?>
+                    <?php while (have_rows('event_1')): the_row(); ?>
+                        <div class="small-12 cell card-margin-bottom "><!-- FEATURED Outer -->
+                            <div class="grid-x lock-tall-half"><!-- Card 1 Inner / Height Locks -->
 
-
-                <div class="grid-x margin-top"><!-- Card 1 Outer-->
-                    <div class="small-12 cell"><!-- Card 1 Outer - Sets outer width of card, how wide it is on site.-->
-
-                        <div class="grid-x margin-top box-shadow"><!-- Card 1 Inner -->
-                            <div class="small-12 medium-4 cell">
-                                <div class="orange-background gradient-corners">
-                                    <img class = "add-padding" src="https://lets-go.local/wp-content/uploads/2022/02/Asset-6.png" alt="">
-                                </div>
-                            </div>
-
-                            <div class="small-12 medium-8 cell main-background content-corners ">
-                                <div class=" add-padding left">
-                                    <h3>Second Harvest Food Bank</h3>
-                                    <p class="no-spacing margin-bottom">Operates a food warehouse headquarters that functions to lead
-                                        our community in the fight to end hunger. Their goal is to provide adequate
-                                        nutrition for a healthy life for adults, seniors, and children in 18 East
-                                        Tennessee counties.</p>
-                                    <div class="grid-x"><!-- Card 1 Icons -->
-                                        <div class="small-6 cell center">
-                                            <img src="https://img.icons8.com/ios/40/000000/children--v1.png" alt="">
-                                            <p> Family <br /> Friendly</p>
-                                        </div>
-                                        <div class="small-6 cell center">
-                                            <img src="https://img.icons8.com/ios/40/000000/children--v1.png" alt="">
-                                            <p> Family <br /> Friendly</p>
-                                        </div>
-                                        <div class="small-12 cell ">
-                                            <div class="lr-padding ">
-                                                <button class="btn btn-v1 center">Register Now</button>
-                                            </div>
-                                        </div>
+                                <!-- Left / Top -->
+                                <div class="small-12 medium-4 cell gradient-corners relative"
+                                     style="background: <?php the_sub_field('event_gradient'); ?>;">
+                                    <div class="card-center">
+                                        <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
                                     </div>
                                 </div>
 
-                            </div> <!-- Card Inner End-->
-                        </div><!-- Card Inner End -->
-                    </div> <!-- Card 1 End -->
-                </div><!-- Card 1 End -->
+                                <!-- Right / Bottom -->
+                                <div class="small-12 medium-8 cell card-contents content-corners relative">
+                                    <div class="card-content-center">
+                                        <h3 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h3>
+                                        <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
+                                        <div class="grid-x icon-box">
+                                            <div class="small-6 cell <?php the_sub_field('outdoor_event'); ?>">
+                                                <div class="center">
+                                                    <img class="center"
+                                                         src="https://img.icons8.com/ios/40/000000/partly-cloudy-day--v1.png"/>
+                                                </div>
+                                                <p class="center no-spacing">Outdoor <br> Event</p>
+                                            </div>
+                                            <div class="small-6 cell <?php the_sub_field('family_friendly'); ?>">
+                                                <div class="center">
+                                                    <img class="center"
+                                                         src="https://img.icons8.com/ios/40/000000/children--v1.png"/>
+                                                </div>
+                                                <p class="center no-spacing">Family <br>Friendly</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="center margin-bottom">
+                                            <a href="<?php the_sub_field('registration_link'); ?>">
+                                                <button class="btn btn-v1 register-button">Register</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- Card 3 Inner End -->
+                        </div><!-- Card 3 Outer End -->
+                    <?php endwhile; ?>
+                <?php endif; ?>
 
 
-            </div><!-- Outer Cell End -->
-        </div><!-- Outer End -->
+                <!-- ************ ROW 2 ************* -->
+                <?php if (have_rows('event_2')): ?>
+            <?php while (have_rows('event_2')): the_row(); ?>
+                <div class="small-12 large-8 cell"><!-- This sets the length of the first stack of cards -->
+                    <div class="grid-x">
+                        <div class="small-12 cell"><!-- Card 2 LONG Outer -->
+                            <div class="grid-x lock-tall-half"><!-- Card 2 Inner / Height Locks -->
 
-        <!-- START CARDS -->
+                                <!-- Left / Top -->
+                                <div class="small-12 medium-4 large-4 cell card-margin-bottom-desktop gradient-corners relative"
+                                     style="background: <?php the_sub_field('event_gradient'); ?>;">
+                                    <div class="card-center">
+                                        <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
+                                    </div>
+                                </div>
+
+                                <!-- Right / Bottom -->
+                                <div class="small-12 medium-8 large-8 cell card-margin-bottom card-contents relative content-corners">
+                                    <div class="card-content-center">
+                                        <h3 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h3>
+                                        <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
+                                        <div class="grid-x icon-box">
+                                            <div class="small-6 cell <?php the_sub_field('outdoor_event'); ?>">
+                                                <div class="center">
+                                                    <img class="center"
+                                                         src="https://img.icons8.com/ios/40/000000/partly-cloudy-day--v1.png"/>
+                                                </div>
+                                                <p class="center no-spacing">Outdoor <br>Event</p>
+                                            </div>
+                                            <div class="small-6 cell <?php the_sub_field('family_friendly'); ?>">
+                                                <div class="center">
+                                                    <img class="center"
+                                                         src="https://img.icons8.com/ios/40/000000/children--v1.png"/>
+                                                </div>
+                                                <p class="center no-spacing">Family <br>Friendly</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="center margin-bottom">
+                                            <a href="<?php the_sub_field('registration_link'); ?>">
+                                                <button class="btn btn-v1 register-button">Register</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- Card 1 Inner End -->
+                        </div><!-- Card 1 Outer End -->
+                        <?php endwhile; ?>
+                        <?php endif; ?>
+
+                        <?php if (have_rows('event_3')): ?>
+                        <?php while (have_rows('event_3')):
+                        the_row(); ?>
+                        <div class="small-12 cell"><!-- Card 2 LONG Outer -->
+                            <div class="grid-x lock-tall-half"><!-- Card 2 Inner / Height Locks -->
+
+                                <!-- Left / Top -->
+                                <div class="small-12 medium-4 large-4 cell card-margin-bottom-desktop relative gradient-corners"
+                                     style="background: <?php the_sub_field('event_gradient'); ?>;">
+                                    <div class="card-center">
+                                        <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
+                                    </div>
+                                </div>
+
+                                <!-- Right / Bottom -->
+                                <div class="small-12 medium-8 large-8 cell card-margin-bottom card-contents relative content-corners">
+                                    <div class="card-content-center">
+                                        <h3 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h3>
+                                        <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
+                                        <div class="grid-x icon-box">
+                                            <div class="small-6 cell <?php the_sub_field('outdoor_event'); ?>">
+                                                <div class="center">
+                                                    <img class="center"
+                                                         src="https://img.icons8.com/ios/40/000000/partly-cloudy-day--v1.png"/>
+                                                </div>
+                                                <p class="center no-spacing">Outdoor <br>Event</p>
+                                            </div>
+                                            <div class="small-6 cell <?php the_sub_field('family_friendly'); ?>">
+                                                <div class="center">
+                                                    <img class="center"
+                                                         src="https://img.icons8.com/ios/40/000000/children--v1.png"/>
+                                                </div>
+                                                <p class="center no-spacing">Family <br>Friendly</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="center margin-bottom">
+                                            <a href="<?php the_sub_field('registration_link'); ?>">
+                                                <button class="btn btn-v1 register-button">Register</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- Card 2 Inner End -->
+                        </div><!-- Card 2 Outer End -->
+
+                    </div><!-- Card Stack end -->
+                </div>
+            <?php endwhile; ?>
+            <?php endif; ?>
+
+                <?php if (have_rows('event_4')): ?>
+                    <?php while (have_rows('event_4')): the_row(); ?>
+                        <div class="small-12 large-4 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
+                            <div class="grid-x lock-tall"><!-- Card 2 Inner / Height Locks -->
+
+                                <!-- Left / Top -->
+                                <div class="small-12 medium-4 large-12 cell relative top-corners corner-override"
+                                     style="background: <?php the_sub_field('event_gradient'); ?>;">
+                                    <div class="card-center">
+                                        <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
+                                    </div>
+                                </div>
+
+                                <!-- Right / Bottom -->
+                                <div class="small-12 medium-8 large-12 cell card-contents relative bottom-corners corner-override-2">
+                                    <div class="card-content-center">
+                                        <h3 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h3>
+                                        <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
+                                        <div class="grid-x icon-box">
+                                            <div class="small-6 cell <?php the_sub_field('outdoor_event'); ?>">
+                                                <div class="center">
+                                                    <img class="center"
+                                                         src="https://img.icons8.com/ios/40/000000/partly-cloudy-day--v1.png"/>
+                                                </div>
+                                                <p class="center no-spacing">Outdoor <br>Event</p>
+                                            </div>
+                                            <div class="small-6 cell <?php the_sub_field('family_friendly'); ?>">
+                                                <div class="center">
+                                                    <img class="center"
+                                                         src="https://img.icons8.com/ios/40/000000/children--v1.png"/>
+                                                </div>
+                                                <p class="center no-spacing">Family <br>Friendly</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="center margin-bottom">
+                                            <a href="<?php the_sub_field('registration_link'); ?>">
+                                                <button class="btn btn-v1 register-button">Register</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- Card 3 Inner End -->
+                        </div><!-- Card 3 Outer End -->
+                    <?php endwhile; ?>
+                <?php endif; ?>
+
+
+                <!-- ************ ROW 3 ************* -->
+                <?php if (have_rows('event_5')): ?>
+                    <?php while (have_rows('event_5')): the_row(); ?>
+                        <div class="small-12 large-6 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
+                            <div class="grid-x lock-tall-half"><!-- Card 2 Inner / Height Locks -->
+
+                                <!-- Left / Top -->
+                                <div class="small-12 medium-4 cell gradient-corners relative"
+                                     style="background: <?php the_sub_field('event_gradient'); ?>;">
+                                    <div class="card-center">
+                                        <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
+                                    </div>
+                                </div>
+
+                                <!-- Right / Bottom -->
+                                <div class="small-12 medium-8 cell card-contents relative content-corners">
+                                    <div class="card-content-center">
+                                        <h3 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h3>
+                                        <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
+                                        <div class="grid-x icon-box">
+                                            <div class="small-6 cell <?php the_sub_field('outdoor_event'); ?>">
+                                                <div class="center">
+                                                    <img class="center"
+                                                         src="https://img.icons8.com/ios/40/000000/partly-cloudy-day--v1.png"/>
+                                                </div>
+                                                <p class="center no-spacing">Outdoor <br>Event</p>
+                                            </div>
+                                            <div class="small-6 cell <?php the_sub_field('family_friendly'); ?>">
+                                                <div class="center">
+                                                    <img class="center"
+                                                         src="https://img.icons8.com/ios/40/000000/children--v1.png"/>
+                                                </div>
+                                                <p class="center no-spacing">Family <br>Friendly</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="center margin-bottom">
+                                            <a href="<?php the_sub_field('registration_link'); ?>">
+                                                <button class="btn btn-v1 register-button">Register</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- Card 3 Inner End -->
+                        </div><!-- Card 3 Outer End -->
+                    <?php endwhile; ?>
+                <?php endif; ?>
+
+                <?php if (have_rows('event_6')): ?>
+                    <?php while (have_rows('event_6')): the_row(); ?>
+
+                        <div class="small-12 large-6 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
+                            <div class="grid-x lock-tall-half"><!-- Card 2 Inner / Height Locks -->
+
+                                <!-- Left / Top -->
+                                <div class="small-12 medium-4 cell gradient-corners relative"
+                                     style="background: <?php the_sub_field('event_gradient'); ?>;">
+                                    <div class="card-center">
+                                        <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
+                                    </div>
+                                </div>
+
+                                <!-- Right / Bottom -->
+                                <div class="small-12 medium-8 cell card-contents relative content-corners">
+                                    <div class="card-content-center">
+                                        <h3 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h3>
+                                        <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
+                                        <div class="grid-x icon-box">
+                                            <div class="small-6 cell <?php the_sub_field('outdoor_event'); ?>">
+                                                <div class="center">
+                                                    <img class="center"
+                                                         src="https://img.icons8.com/ios/40/000000/partly-cloudy-day--v1.png"/>
+                                                </div>
+                                                <p class="center no-spacing">Outdoor<br> Event</p>
+                                            </div>
+                                            <div class="small-6 cell <?php the_sub_field('family_friendly'); ?>">
+                                                <div class="center">
+                                                    <img class="center"
+                                                         src="https://img.icons8.com/ios/40/000000/children--v1.png"/>
+                                                </div>
+                                                <p class="center no-spacing">Family <br>Friendly</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="center margin-bottom">
+                                            <a href="<?php the_sub_field('registration_link'); ?>">
+                                                <button class="btn btn-v1 register-button">Register</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- Card 3 Inner End -->
+                        </div><!-- Card 3 Outer End -->
+                    <?php endwhile; ?>
+                <?php endif; ?>
+
+                <!-- ************ ROW 4 ************* -->
+                <?php if (have_rows('event_7')): ?>
+                    <?php while (have_rows('event_7')): the_row(); ?>
+                        <div class="small-12 large-4 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
+                            <div class="grid-x lock-tall"><!-- Card 2 Inner / Height Locks -->
+
+                                <!-- Left / Top -->
+                                <div class="small-12 medium-4 large-12 cell top-corners relative corner-override"
+                                     style="background: <?php the_sub_field('event_gradient'); ?>;">
+                                    <div class="card-center tall-image">
+                                        <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
+                                    </div>
+                                </div>
+
+                                <!-- Right / Bottom -->
+                                <div class="small-12 medium-8 large-12 cell card-contents bottom-corners relative corner-override-2">
+                                    <div class="card-content-center">
+                                        <h3 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h3>
+                                        <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
+                                        <div class="grid-x icon-box">
+                                            <div class="small-6 cell <?php the_sub_field('outdoor_event'); ?>">
+                                                <div class="center">
+                                                    <img class="center"
+                                                         src="https://img.icons8.com/ios/40/000000/partly-cloudy-day--v1.png"/>
+                                                </div>
+                                                <p class="center no-spacing">Outdoor <br>Event</p>
+                                            </div>
+                                            <div class="small-6 cell <?php the_sub_field('family_friendly'); ?>">
+                                                <div class="center">
+                                                    <img class="center"
+                                                         src="https://img.icons8.com/ios/40/000000/children--v1.png"/>
+                                                </div>
+                                                <p class="center no-spacing">Family <br>Friendly</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="center margin-bottom">
+                                            <a href="<?php the_sub_field('registration_link'); ?>">
+                                                <button class="btn btn-v1 register-button">Register</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- Card 3 Inner End -->
+                        </div><!-- Card 3 Outer End -->
+                    <?php endwhile; ?>
+                <?php endif; ?>
+
+                <?php if (have_rows('event_8')): ?>
+                    <?php while (have_rows('event_8')): the_row(); ?>
+                        <div class="small-12 large-4 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
+                            <div class="grid-x lock-tall"><!-- Card 2 Inner / Height Locks -->
+
+                                <!-- Left / Top -->
+                                <div class="small-12 medium-4 large-12 cell top-corners relative corner-override"
+                                     style="background: <?php the_sub_field('event_gradient'); ?>;">
+                                    <div class="card-center tall-image">
+                                        <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
+                                    </div>
+                                </div>
+
+                                <!-- Right / Bottom -->
+                                <div class="small-12 medium-8 large-12 cell card-contents bottom-corners relative corner-override-2">
+                                    <div class="card-content-center">
+                                        <h3 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h3>
+                                        <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
+                                        <div class="grid-x icon-box">
+                                            <div class="small-6 cell <?php the_sub_field('outdoor_event'); ?>">
+                                                <div class="center">
+                                                    <img class="center"
+                                                         src="https://img.icons8.com/ios/40/000000/partly-cloudy-day--v1.png"/>
+                                                </div>
+                                                <p class="center no-spacing">Outdoor <br>Event</p>
+                                            </div>
+                                            <div class="small-6 cell <?php the_sub_field('family_friendly'); ?>">
+                                                <div class="center">
+                                                    <img class="center"
+                                                         src="https://img.icons8.com/ios/40/000000/children--v1.png"/>
+                                                </div>
+                                                <p class="center no-spacing">Family <br>Friendly</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="center margin-bottom">
+                                            <a href="<?php the_sub_field('registration_link'); ?>">
+                                                <button class="btn btn-v1 register-button">Register</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- Card 3 Inner End -->
+                        </div><!-- Card 3 Outer End -->
+                    <?php endwhile; ?>
+                <?php endif; ?>
+
+                <?php if (have_rows('event_9')): ?>
+                    <?php while (have_rows('event_9')): the_row(); ?>
+                        <div class="small-12 large-4 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
+                            <div class="grid-x lock-tall"><!-- Card 2 Inner / Height Locks -->
+
+                                <!-- Left / Top -->
+                                <div class="small-12 medium-4 large-12 cell top-corners relative corner-override"
+                                     style="background: <?php the_sub_field('event_gradient'); ?>;">
+                                    <div class="card-center">
+                                        <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
+                                    </div>
+                                </div>
+
+                                <!-- Right / Bottom -->
+                                <div class="small-12 medium-8 large-12 cell card-contents relative bottom-corners corner-override-2">
+                                    <div class="card-content-center">
+                                        <h3 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h3>
+                                        <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
+                                        <div class="grid-x icon-box">
+                                            <div class="small-6 cell <?php the_sub_field('outdoor_event'); ?>">
+                                                <div class="center">
+                                                    <img class="center"
+                                                         src="https://img.icons8.com/ios/40/000000/partly-cloudy-day--v1.png"/>
+                                                </div>
+                                                <p class="center no-spacing">Outdoor <br>Event</p>
+                                            </div>
+                                            <div class="small-6 cell <?php the_sub_field('family_friendly'); ?>">
+                                                <div class="center">
+                                                    <img class="center"
+                                                         src="https://img.icons8.com/ios/40/000000/children--v1.png"/>
+                                                </div>
+                                                <p class="center no-spacing">Family <br>Friendly</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="center margin-bottom">
+                                            <a href="<?php the_sub_field('registration_link'); ?>">
+                                                <button class="btn btn-v1 register-button">Register</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- Card 3 Inner End -->
+                        </div><!-- Card 3 Outer End -->
+                    <?php endwhile; ?>
+                <?php endif; ?>
+
+                <!-- ************ ROW 5 ************* -->
+                <?php if (have_rows('event_10')): ?>
+                    <?php while (have_rows('event_10')): the_row(); ?>
+                        <div class="small-12 large-5 cell card-margin-bottom"><!-- Card 3 TALL Outer -->
+                            <div class="grid-x lock-tall"><!-- Card 2 Inner / Height Locks -->
+
+                                <!-- Left / Top -->
+                                <div class="small-12 medium-4 large-12 cell top-corners relative corner-override"
+                                     style="background: <?php the_sub_field('event_gradient'); ?>;">
+                                    <div class="card-center ">
+                                        <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
+                                    </div>
+                                </div>
+
+                                <!-- Right / Bottom -->
+                                <div class="small-12 medium-8 large-12 cell card-contents relative bottom-corners corner-override-2">
+                                    <div class="card-content-center">
+                                        <h3 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h3>
+                                        <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
+                                        <div class="grid-x icon-box">
+                                            <div class="small-6 cell <?php the_sub_field('outdoor_event'); ?>">
+                                                <div class="center">
+                                                    <img class="center"
+                                                         src="https://img.icons8.com/ios/40/000000/partly-cloudy-day--v1.png"/>
+                                                </div>
+                                                <p class="center no-spacing">Outdoor <br>Event</p>
+                                            </div>
+                                            <div class="small-6 cell <?php the_sub_field('family_friendly'); ?>">
+                                                <div class="center">
+                                                    <img class="center"
+                                                         src="https://img.icons8.com/ios/40/000000/children--v1.png"/>
+                                                </div>
+                                                <p class="center no-spacing">Family <br>Friendly</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="center margin-bottom">
+                                            <a href="<?php the_sub_field('registration_link'); ?>">
+                                                <button class="btn btn-v1 register-button">Register</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- Card 3 Inner End -->
+                        </div><!-- Card 3 Outer End -->
+                    <?php endwhile; ?>
+                <?php endif; ?>
+
+                <?php if (have_rows('event_12')): ?>
+            <?php while (have_rows('event_12')):
+            the_row(); ?>
+                <div class="small-12 large-7 cell"><!-- This sets the length of the first stack of cards -->
+                    <div class="grid-x">
+                        <div class="small-12 cell"><!-- Card 1 LONG Outer -->
+                            <div class="grid-x lock-tall-half"><!-- Card 1 Inner / Height Locks -->
+
+                                <!-- Left / Top -->
+                                <div class="small-12 medium-4 large-4 cell card-margin-bottom-desktop gradient-corners relative"
+                                     style="background: <?php the_sub_field('event_gradient'); ?>;">
+                                    <div class="card-center">
+                                        <img src="<?php the_sub_field('event_image'); ?>" alt="Event Graphic">
+                                    </div>
+                                </div>
+
+                                <!-- Right / Bottom -->
+                                <div class="small-12 medium-8 large-8 cell card-margin-bottom card-contents relative content-corners">
+                                    <div class="card-content-center">
+                                        <h3 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h3>
+                                        <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
+                                        <div class="grid-x icon-box">
+                                            <div class="small-6 cell <?php the_sub_field('outdoor_event'); ?>">
+                                                <div class="center">
+                                                    <img class="center"
+                                                         src="https://img.icons8.com/ios/40/000000/partly-cloudy-day--v1.png"/>
+                                                </div>
+                                                <p class="center no-spacing">Outdoor <br>Event</p>
+                                            </div>
+                                            <div class="small-6 cell <?php the_sub_field('family_friendly'); ?>">
+                                                <div class="center">
+                                                    <img class="center"
+                                                         src="https://img.icons8.com/ios/40/000000/children--v1.png"/>
+                                                </div>
+                                                <p class="center no-spacing">Family <br>Friendly</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="center margin-bottom">
+                                            <a href="<?php the_sub_field('registration_link'); ?>">
+                                                <button class="btn btn-v1 register-button">Register</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- Card 1 Inner End -->
+                        </div><!-- Card 1 Outer End -->
+                        <?php endwhile; ?>
+                        <?php endif; ?>
+
+
+                        <?php if (have_rows('event_16')): ?>
+                            <?php while (have_rows('event_16')): the_row(); ?>
+                                <div class="small-12 cell"><!-- Card 2 LONG Outer -->
+                                    <div class="grid-x lock-tall-half"><!-- Card 2 Inner / Height Locks -->
+
+                                        <!-- Left / Top -->
+                                        <div class="small-12 medium-4 large-4 cell card-margin-bottom-desktop gradient-corners relative"
+                                             style="background: <?php the_sub_field('event_gradient'); ?>;">
+                                            <div class="card-center">
+                                                <img src="<?php the_sub_field('event_image'); ?>"
+                                                     alt="Event Graphic">
+                                            </div>
+                                        </div>
+
+                                        <!-- Right / Bottom -->
+                                        <div class="small-12 medium-8 large-8 cell card-margin-bottom card-contents relative content-corners">
+                                            <div class="card-content-center">
+                                                <h3 class="no-spacing lr-padding"><?php the_sub_field('event_title'); ?></h3>
+                                                <p class="no-spacing lr-padding margin-bottom"><?php the_sub_field('event_text'); ?></p>
+                                                <div class="grid-x icon-box">
+                                                    <div class="small-6 cell <?php the_sub_field('outdoor_event'); ?>">
+                                                        <div class="center">
+                                                            <img class="center"
+                                                                 src="https://img.icons8.com/ios/40/000000/partly-cloudy-day--v1.png"/>
+                                                        </div>
+                                                        <p class="center no-spacing">Outdoor <br>Event</p>
+                                                    </div>
+                                                    <div class="small-6 cell <?php the_sub_field('family_friendly'); ?>">
+                                                        <div class="center">
+                                                            <img class="center"
+                                                                 src="https://img.icons8.com/ios/40/000000/children--v1.png"/>
+                                                        </div>
+                                                        <p class="center no-spacing">Family <br>Friendly</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="center margin-bottom">
+                                                    <a href="<?php the_sub_field('registration_link'); ?>">
+                                                        <button class="btn btn-v1 register-button">Register</button>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- Card 2 Inner End -->
+                                </div><!-- Card 2 Outer End -->
+                            <?php endwhile; ?>
+                        <?php endif; ?>
+
+                    </div><!-- Card Stack end -->
+                </div>
+
+
+
+            </div><!-- Card 1 Outer End -->
+
+        </div><!-- Card Container End -->
+    </div><!-- Card Container End -->
 
 
 <?php get_footer();

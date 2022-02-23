@@ -63,6 +63,14 @@
   padding-bottom: 60px;
 }
 
+@media screen and (max-width: 39.9375em) {
+  .mobile-padding {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+
 
 
 
@@ -92,24 +100,26 @@
   margin-top: -8px;
 }
 
-.mt-80 {
-  margin-top: 80px;
+//this fixes the margins for the homepage logo and text.
+.homepage-header {
+  padding: 150px 0 100px 0;
 }
 
-// This is used on the homepage to set the middle glyph down on desktop only
 @media screen and (min-width: 40em) {
-  .middle-glyph-push {
-    margin-top: 100px;
+  .homepage-header {
+    padding: 150px 0 100px;
   }
 }
 
-.serve-margin-pull {
-  margin-top: -5px;
+@media screen and (max-width: 39.9375em) {
+  .mobile-homepage-header {
+    padding-bottom: 100px;
+  }
 }
 
 @media screen and (min-width: 40em) {
-  .serve-margin-pull {
-    margin-top: -1%;
+  .homepage-wave-pull {
+    margin-top: -20px;
   }
 }
 

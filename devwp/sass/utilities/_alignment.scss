@@ -5,7 +5,7 @@
  * - Positioning
  * - Text Placements
  * - Height Locks
- * - Z-index
+ * - Width
  *
  *
  */
@@ -50,6 +50,21 @@
   transform: translate(-50%, -50%);
 }
 
+// Homepage top corner graphic
+.homepage-top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (min-width: 40em) {
+  .homepage-top-left {
+    z-index: 2;
+    top: -50px;
+    left: -50px;
+    width: 50%;
+  }
+}
 
 
 //*********************************************
@@ -85,9 +100,22 @@
   }
 }
 
+
 //*********************************************
-//***************** Z-index *******************
+//******************* WIDTH *******************
 //*********************************************
-.z-2 {
-  z-index: 2;
+.w-full {
+  width: 100%;
+}
+
+.w-half {
+  width: 50%;
+}
+
+//this stretches the waves on mobile so they still appear to be THICC
+// Stops doing that on tablet
+@media screen and (max-width: 39.9375em) {
+  .w-long {
+    width: 1000px;
+  }
 }

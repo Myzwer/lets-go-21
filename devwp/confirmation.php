@@ -20,7 +20,7 @@ get_header(); ?>
             <div class="grid-x grid-padding-x ">
                 <div class="small-12 cell">
                     <div class="margin-bottom">
-                        <a href="/frontpage">
+                        <a href="<?php the_field('homepage_link', 'option'); ?>">
                             <button class="btn btn-v1 register-button"><< Back to Homepage</button>
                         </a>
                     </div>
@@ -51,7 +51,7 @@ get_header(); ?>
     <div class="full-width">
         <div class="grid-x ">
             <div class="small-12 cell">
-                <img class="waves" src="https://letsgoserve.com/wp-content/uploads/2021/02/Vector-Top-Small.png" alt="">
+                <img class="waves" src="<?php the_field('subpage_wave', 'option'); ?>" alt="Section Wave Decoration">
             </div>
         </div>
     </div>

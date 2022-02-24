@@ -19,7 +19,7 @@ get_header(); ?>
             <div class="grid-x grid-padding-x ">
                 <div class="small-12 cell">
                     <div class="margin-bottom">
-                        <a href="/frontpage">
+                        <a href="<?php the_field('homepage_link', 'option'); ?>">
                             <button class="btn btn-v1 register-button"><< Back to Homepage</button>
                         </a>
                     </div>
@@ -46,7 +46,7 @@ get_header(); ?>
     <div class="full-width">
         <div class="grid-x ">
             <div class="small-12 cell">
-                <img class="waves" src="https://letsgoserve.com/wp-content/uploads/2021/02/Vector-Top-Small.png" alt="">
+                <img class="waves" src="<?php the_field('subpage_wave', 'option'); ?>" alt="Section Wave Decoration">
             </div>
         </div>
     </div>
@@ -64,7 +64,7 @@ get_header(); ?>
                 <div class="grid-x grid-container">
                     <div class="small-2 cell relative">
                         <div class="icon-center">
-                            <img class = "icons" src="https://letsgoserve.com/wp-content/uploads/2021/02/Pin-Marker.png"/>
+                            <img class = "icons" src="<?php the_field('map_icon', 'option'); ?>"/>
                         </div>
                     </div>
                     <div class="small-10 cell">
@@ -77,7 +77,7 @@ get_header(); ?>
                 <div class="grid-x grid-container">
                     <div class="small-2 cell relative">
                         <div class="icon-center">
-                            <img class = "icons" src="https://letsgoserve.com/wp-content/uploads/2021/02/Family-Friendly.png"/>
+                            <img class = "icons" src="<?php the_field('family_icon', 'option'); ?>"/>
                         </div>
                     </div>
                     <div class="small-10 cell">
@@ -90,7 +90,7 @@ get_header(); ?>
                 <div class="grid-x grid-container">
                     <div class="small-2 cell relative">
                         <div class="icon-center">
-                            <img class = "icons" src="https://letsgoserve.com/wp-content/uploads/2021/02/Weather.png"/>
+                            <img class = "icons" src="<?php the_field('weather_icon', 'option'); ?>"/>
                         </div>
                     </div>
                     <div class="small-10 cell">
@@ -101,7 +101,7 @@ get_header(); ?>
             </div>
 
             <div class="small-12 cell margin-bottom">
-                <h5 class = "dark-color-invert center">Spot you wanted full? <a class = "underline" href="https://foothillschurch.churchcenter.com/people/forms/222318">Choose your own adventure instead!</a></h5>
+                <h5 class = "dark-color-invert center">Spot you wanted full? <a class = "underline" href="<?php the_field('adventure_link', 'option'); ?>">Choose your own adventure instead!</a></h5>
             </div>
         </div>
     </div>

@@ -76,6 +76,13 @@ function register_col_3() {
 add_action( 'init', 'register_col_3' );
 
 
+//*****************************************************
+//******************* OPTIONS PAGE ********************
+//*****************************************************
+if( function_exists('acf_add_options_page') ) {
+    acf_add_options_page();
+}
+
 /**
  * Get the Event ID of an Espress Event.
  * If the current post is an Event, it will return null.

@@ -15,7 +15,7 @@ $eventId = get_event_id();
 get_header(); ?>
 
     <div class="full-width main-background">
-        <div class="grid-container">
+        <div class="grid-container padding-top">
             <div class="grid-x grid-padding-x ">
                 <div class="small-12 cell">
                     <div class="margin-bottom">
@@ -82,19 +82,6 @@ get_header(); ?>
                     </div>
                     <div class="small-10 cell">
                         <h4 class = "dark-color-invert"><?php the_field('child_information', $eventId); ?></h4>
-                    </div>
-                </div>
-            </div>
-
-            <div class="small-12 cell margin-bottom">
-                <div class="grid-x grid-container">
-                    <div class="small-2 cell relative">
-                        <div class="icon-center">
-                            <img class = "icons" src="https://letsgoserve.com/wp-content/uploads/2021/02/Mask.png"/>
-                        </div>
-                    </div>
-                    <div class="small-10 cell">
-                        <h4 class = "dark-color-invert"><?php the_field('mask_information', $eventId); ?></h4>
                     </div>
                 </div>
             </div>

@@ -16,7 +16,7 @@ get_header(); ?>
 
 
     <div class="full-width main-background">
-        <div class="grid-container">
+        <div class="grid-container padding-top">
             <div class="grid-x grid-padding-x ">
                 <div class="small-12 cell">
                     <div class="margin-bottom">
@@ -41,7 +41,7 @@ get_header(); ?>
     <div class="full-width main-background">
         <div class="grid-container">
             <div class="grid-x grid-padding-x padding-outer">
-                <div class="small-12 cell">
+                <div class="small-12 cell dark-icons">
                     <?php the_content(); ?>
                 </div>
             </div>

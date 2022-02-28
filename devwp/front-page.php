@@ -13,22 +13,23 @@
 
 get_header(); ?>
     <div class="z-2 absolute">
-        <img class="small-margin-pull" src="https://lets-go.local/wp-content/uploads/2022/02/Header-Top-Bar.png" alt="">
+        <img class="small-margin-pull" src="<?php the_field('top_wave_header'); ?>" alt="Design Component - Top Wave Header">
     </div>
 
-    <img class="homepage-top-left" src="https://lets-go.local/wp-content/uploads/2022/02/Top-Left-Corner-Alt.png"
-         alt="">
+    <img class="homepage-top-left" src="<?php the_field('left_corner_art'); ?>"
+         alt="Design Component - Left Corner Art">
     <div class="full-width main-background">
         <div class="grid-x mobile-homepage-header">
             <div class="small-12 medium-offset-1 medium-4 cell z-3 relative homepage-header">
-                <img class="mobile-padding" src="https://lets-go.local/wp-content/uploads/2022/02/Asset-5.png" alt="">
+                <img class="mobile-padding" src="<?php the_field('lgw_logo'); ?>" alt="Let's Go Week Logo">
             </div>
             <div class="small-12 medium-offset-1 medium-5 z-3 relative">
                 <div class="content-middle w-full">
-                    <h1 class="lr-padding">Some text and stuff about a brandscript of lets go asking you to do
-                        things.</h1>
+                    <h1 class="lr-padding"><?php the_field('brandscript_tagline'); ?></h1>
                     <div class="lr-padding">
-                        <button class="btn btn-v1">Register Now</button>
+                        <a href="<?php the_field('button_link'); ?>">
+                            <button class="btn btn-v1"><?php the_field('button_text'); ?></button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -36,71 +37,76 @@ get_header(); ?>
     </div>
 
 
-    <img class="z-3 relative" src="https://lets-go.local/wp-content/uploads/2022/02/Header-Bottom.png" alt="">
+    <img class="z-3 relative" src="<?php the_field('top_wave_about'); ?>" alt="Design Component - Top Wave About">
 
     <div class="full-width orange-background">
         <div class="grid-x margin-bottom">
             <div class="small-12 center cell">
                 <div class="drop-effect">
-                    <h2>What is Let's Go?</h2>
+                    <h2><?php the_field('about_title'); ?></h2>
                 </div>
             </div>
         </div>
         <div class="grid-container">
             <div class="grid-x grid-margin-x">
-                <div class="small-12 medium-4 cell padding-bottom">
-                    <div class="center">
-                        <img class="w-half padding-bottom"
-                             src="https://lets-go.local/wp-content/uploads/2022/02/Icon-1.png" alt="">
-                    </div>
-                    <h3 class="dark-color-invert">Look Up</h3>
-                    <p class="no-spacing dark-color-invert">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Culpa ex illum ipsam ipsum labore, nihil nisi numquam officiis quaerat, rerum sequi soluta sunt?
-                        Aliquam at dolore harum ut, veniam vitae.</p>
-                </div>
 
-                <div class="small-12 medium-4 cell middle-icon-push padding-bottom">
-                    <div class="center">
-                        <img class="w-half padding-bottom"
-                             src="https://lets-go.local/wp-content/uploads/2022/02/Icon-1.png" alt="">
-                    </div>
-                    <h3 class="dark-color-invert">Look Up</h3>
-                    <p class="no-spacing dark-color-invert">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Culpa ex illum ipsam ipsum labore, nihil nisi numquam officiis quaerat, rerum sequi soluta sunt?
-                        Aliquam at dolore harum ut, veniam vitae.</p>
-                </div>
+                <?php if (have_rows('about_section_content')): ?>
+                    <?php while (have_rows('about_section_content')): the_row(); ?>
+                        <div class="small-12 medium-4 cell padding-bottom">
+                            <div class="center">
+                                <img class="w-half padding-bottom"
+                                     src="<?php the_sub_field('icon'); ?>" alt="Design Component - Abstract Icon">
+                            </div>
+                            <h3 class="dark-color-invert"><?php the_sub_field('title'); ?></h3>
+                            <p class="no-spacing dark-color-invert"><?php the_sub_field('copy'); ?></p>
+                        </div>
+                    <?php endwhile; ?>
+                <?php endif; ?>
 
-                <div class="small-12 medium-4 cell padding-bottom">
-                    <div class="center">
-                        <img class="w-half padding-bottom"
-                             src="https://lets-go.local/wp-content/uploads/2022/02/Icon-1.png" alt="">
-                    </div>
-                    <h3 class="dark-color-invert">Look Up</h3>
-                    <p class="no-spacing dark-color-invert">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Culpa ex illum ipsam ipsum labore, nihil nisi numquam officiis quaerat, rerum sequi soluta sunt?
-                        Aliquam at dolore harum ut, veniam vitae.</p>
-                </div>
+                <?php if (have_rows('about_section_content_2')): ?>
+                    <?php while (have_rows('about_section_content_2')): the_row(); ?>
+                        <div class="small-12 medium-4 cell middle-icon-push padding-bottom">
+                            <div class="center">
+                                <img class="w-half padding-bottom"
+                                     src="<?php the_sub_field('icon'); ?>" alt="Design Component - Abstract Icon">
+                            </div>
+                            <h3 class="dark-color-invert"><?php the_sub_field('title'); ?></h3>
+                            <p class="no-spacing dark-color-invert"><?php the_sub_field('copy'); ?></p>
+                        </div>
+                    <?php endwhile; ?>
+                <?php endif; ?>
+
+                <?php if (have_rows('about_section_content_3')): ?>
+                    <?php while (have_rows('about_section_content_3')): the_row(); ?>
+                        <div class="small-12 medium-4 cell padding-bottom">
+                            <div class="center">
+                                <img class="w-half padding-bottom"
+                                     src="<?php the_sub_field('icon'); ?>" alt="Design Component - Abstract Icon">
+                            </div>
+                            <h3 class="dark-color-invert"><?php the_sub_field('title'); ?></h3>
+                            <p class="no-spacing dark-color-invert"><?php the_sub_field('copy'); ?></p>
+                        </div>
+                    <?php endwhile; ?>
+                <?php endif; ?>
             </div>
         </div>
     </div>
 
     <div class="full-width orange-background dark-color-invert">
-        <img src="https://lets-go.local/wp-content/uploads/2022/02/About-Bottom-Wave.png" alt="">
+        <img src="<?php the_field('top_wave_serving'); ?>" alt="Design Component - Top Wave Serving">
     </div>
     <div class="full-width blue-background">
-        <div class="grid-x grid-container">
-            <div class="small-12 center cell">
-                <div class="drop-effect add-padding">
-                    <h2>Serving Opportunities</h2>
-                </div>
-                <div class="orange-background add-padding rounded-corners box-shadow margin-bottom">
-                    <h3 class="dark-color-invert center uppercase">Please Note</h3>
-                    <p class="dark-color-invert">Please do not bring any extra people to serve who have not registered
-                        for the event. Although it sounds helpful, our serve organizations have specified the number of
-                        people allowed and we want to honor this.</p>
-                </div>
+    <div class="grid-x grid-container">
+        <div class="small-12 center cell">
+            <div class="drop-effect add-padding">
+                <h2><?php the_field('serving_ops_title'); ?></h2>
+            </div>
+            <div class="orange-background add-padding rounded-corners box-shadow margin-bottom">
+                <h3 class="dark-color-invert center uppercase"><?php the_field('alert_box_header'); ?></h3>
+                <p class="dark-color-invert"><?php the_field('alert_box_copy'); ?></p>
             </div>
         </div>
+    </div>
 
 
     <!-- Start of Cards-->
@@ -160,7 +166,8 @@ get_header(); ?>
 
                 <!-- ************ ROW 2 ************* -->
                 <?php if (have_rows('event_2')): ?>
-            <?php while (have_rows('event_2')): the_row(); ?>
+            <?php while (have_rows('event_2')):
+            the_row(); ?>
                 <div class="small-12 large-8 cell"><!-- This sets the length of the first stack of cards -->
                     <div class="grid-x">
                         <div class="small-12 cell"><!-- Card 2 LONG Outer -->
@@ -594,8 +601,8 @@ get_header(); ?>
                 <?php endif; ?>
 
                 <?php if (have_rows('event_12')): ?>
-            <?php while (have_rows('event_12')):
-            the_row(); ?>
+                <?php while (have_rows('event_12')):
+                the_row(); ?>
                 <div class="small-12 large-7 cell"><!-- This sets the length of the first stack of cards -->
                     <div class="grid-x">
                         <div class="small-12 cell"><!-- Card 1 LONG Outer -->
@@ -694,7 +701,6 @@ get_header(); ?>
 
                     </div><!-- Card Stack end -->
                 </div>
-
 
 
             </div><!-- Card 1 Outer End -->

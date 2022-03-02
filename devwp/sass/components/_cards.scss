@@ -123,7 +123,14 @@
 @media screen and (min-width: 40em) {
   .tall-image {
     max-height: 450px;
-    max-width: 230px;
+    max-width: 330px;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .wide-image {
+    max-height: 450px;
+    max-width: 430px;
   }
 }
 
@@ -158,6 +165,11 @@
   }
 }
 
+@media screen and (min-width: 81em) {
+  .lock-tall-xl {
+    height: 950px;
+  }
+}
 
 //margin fixes
 .card-margin-bottom {

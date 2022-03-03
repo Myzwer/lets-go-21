@@ -84,6 +84,16 @@ h5 {
   }
 }
 
+.long-word {
+  font-size: 1.5em;
+}
+
+@media screen and (min-width: 40em) {
+  .long-word {
+    font-size: 2em;
+  }
+}
+
 
 //*********************************************
 //*************** FONT SIZES ******************

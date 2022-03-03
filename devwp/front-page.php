@@ -100,7 +100,7 @@ get_header(); ?>
     <div class="grid-x grid-container">
         <div class="small-12 center cell">
             <div class="drop-effect add-padding">
-                <h2 id = "serve"><?php the_field('serving_ops_title'); ?></h2>
+                <h2 class = "long-word" id = "serve"><?php the_field('serving_ops_title'); ?></h2>
             </div>
             <div class="orange-background add-padding rounded-corners box-shadow margin-bottom">
                 <h3 class="dark-color-invert center uppercase"><?php the_field('alert_box_header'); ?></h3>
